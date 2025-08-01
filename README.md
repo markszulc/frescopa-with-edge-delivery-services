@@ -1,7 +1,8 @@
 # Frescopa demo site for Adobe Experience Manager using Edge Delivery Services
 
 This is a coffee theme demo site used to showcase Adobe Experience Manager, Unified Editor and Edge Delivery Services. 
-<img src="previews/starter.png?raw=true" alt="Standard site preview" width="30%">
+
+<img src="previews/starter.png?raw=true" alt="Standard site preview" width="70%">
 
 ## To create a site in Adobe Experience Manager (AEM) using this template, follow these steps:
 Navigate to the Sites Console:
