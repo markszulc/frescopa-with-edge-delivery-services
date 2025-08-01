@@ -1,10 +1,10 @@
 {
     "name": "frescopa-with-edge-delivery-services",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Frescopa demo site with Edge Delivery Services",
     "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
     "scripts": {
-        "build": "cd site && zip -r ../site.zip . && cd .. && zip -r frescopa-0.0.1.zip site.zip previews package.json && rm site.zip",
+        "build": "cd site && zip -r ../site.zip . && cd .. && zip -r frescopa-0.0.2.zip site.zip previews package.json && rm site.zip",
         "stub": "aem-site-template-builder stub"
     },
     "devDependencies": {
