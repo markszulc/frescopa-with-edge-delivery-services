@@ -1,25 +1,26 @@
 {
-    "name": "aem-sites-with-edge-delivery-services-template",
-    "version": "0.1.2",
-    "description": "AEM Site with Edge Delivery Services Template used as a starter for general purpose websites with Edge Delivery Services delivery",
+    "name": "frescopa-with-edge-delivery-services",
+    "version": "0.0.1",
+    "description": "Frescopa demo site with Edge Delivery Services",
     "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
     "scripts": {
-        "build": "aem-site-template-builder",
+        "build": "cd site && zip -r ../site.zip . && cd .. && zip -r frescopa-0.0.1.zip site.zip previews package.json && rm site.zip",
         "stub": "aem-site-template-builder stub"
     },
     "devDependencies": {
         "@adobe/aem-site-template-builder": "2.3.2"
     },
     "siteTemplate": {
-        "title": "AEM Site with Edge Delivery Services Template",
+        "title": "Frescopa demo site with Edge Delivery Services",
         "createdBy": "Adobe",
         "useCases": [
             "AEM Sites delivered with Edge Delivery Services",
-            "Edge Delivery Services"
+            "Edge Delivery Services",
+            "Universal Editor"
         ],
         "docsUrl": "",
         "showcaseUrl": "",
         "sourceRepositoryUrl": "https://git.corp.adobe.com/CQ/sites-franklin",
-        "openItem": "{Path}/index"
+        "openItem": "{Path}/en/index"
     }
 }
