@@ -1,9 +1,13 @@
+
 name: Build and Release frescopa
 
 on:
-  push:
-    tags:
-      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      release_name:
+        description: 'Release name (optional)'
+        required: false
+        default: ''
 
 jobs:
   build-and-release:
@@ -45,5 +49,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: frescopa-${{ steps.get_version.outputs.version }}.zip
+          name: ${{ github.event.inputs.release_name || format('frescopa-{0}', steps.get_version.outputs.version) }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
