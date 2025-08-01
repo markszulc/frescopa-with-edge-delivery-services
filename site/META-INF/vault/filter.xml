@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/frescopa-with-edge-delivery-services"/>
+    <filter root="/content/frescopa-with-edge-delivery-services"/>
+    <filter root="/content/dam/frescopa-with-edge-delivery-services"/>
+</workspaceFilter>

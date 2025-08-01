@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Header"
+        sling:resourceType="core/franklin/components/page/v1/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <link
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/button/v1/button"
+                    href="#"
+                    text="AEM"
+                    type="primary"/>
+            </section>
+            <section_0
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;ul>&lt;li>Examples&lt;/li>&lt;li>Getting Started&lt;/li>&lt;li>Documentation&lt;/li>&lt;/ul>"/>
+            </section_0>
+            <section_1
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p>:search:&lt;/p>"/>
+            </section_1>
+        </root>
+    </jcr:content>
+</jcr:root>

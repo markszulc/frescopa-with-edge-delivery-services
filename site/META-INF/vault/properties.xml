@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEM Site with Edge Delivery Services Template</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="acHandling">merge</entry>
+<entry key="created">2024-11-12T13:03:50.174Z</entry>
+<entry key="groupId">com.adobe.aem.guides</entry>
+<entry key="description">Site template content package of an AEM Site with Edge Delivery Services</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="name">aem-site-with-edge-delivery-services-template-standard.site</entry>
+<entry key="artifactId">aem-site-with-edge-delivery-services-template-standard.site</entry>
+<entry key="group">com.adobe.aem.guides</entry>
+</properties>

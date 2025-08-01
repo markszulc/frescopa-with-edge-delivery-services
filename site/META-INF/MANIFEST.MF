@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.2
+Build-Jdk-Spec: 11
+Implementation-Title: AEM Site with Edge Delivery Services Template
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.adobe.aem.guides:aem-site-with-edge-delivery-ser
+ vices-template-standard.site:0.0.1-SNAPSHOT
+Content-Package-Description: Site template content package of an AEM Sit
+ e with Edge Delivery Services
+Content-Package-Roots: /conf/aem-sites-with-edge-delivery-services-templ
+ ate,/content/frescopa-with-edge-delivery-services,/content/da
+ m/frescopa-with-edge-delivery-services
+

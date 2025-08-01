@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3bb814b7-1157-4d79-94a7-2c11d0a08eaf">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2023-10-18T10:36:15.379+02:00"
+        jcr:lastModifiedBy="workflow-process-service"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="XML:com.adobe.xmp: &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;XMP Core 6.0.0&quot;>&#xa;   &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;      &lt;rdf:Description rdf:about=&quot;&quot;&#xa;            xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;>&#xa;         &lt;tiff:Compression>1&lt;/tiff:Compression>&#xa;         &lt;tiff:Orientation>1&lt;/tiff:Orientation>&#xa;         &lt;tiff:PhotometricInterpretation>2&lt;/tiff:PhotometricInterpretation>&#xa;         &lt;tiff:ResolutionUnit>2&lt;/tiff:ResolutionUnit>&#xa;      &lt;/rdf:Description>&#xa;   &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&#xa;"
+            dam:extracted="{Date}2023-10-18T10:36:14.968+02:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="fafa72ab959b2147b0549dd35c592858122043d3"
+            dam:size="{Long}692301"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:Compression="{Long}1"
+            tiff:ImageLength="{Long}886"
+            tiff:ImageWidth="{Long}1600"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
