@@ -66,4 +66,4 @@ jobs:
           name: ${{ github.event.inputs.release_name || format('frescopa-{0}', steps.get_version.outputs.version) }}
           tag_name: v${{ steps.get_version.outputs.version }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
