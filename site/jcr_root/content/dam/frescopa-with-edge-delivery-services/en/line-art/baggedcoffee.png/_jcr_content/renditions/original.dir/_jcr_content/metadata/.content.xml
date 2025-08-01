@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0"
+    jcr:primaryType="nt:unstructured">
+    <dam:internal jcr:primaryType="nt:unstructured">
+        <delivery_f57ccc07747d079f9ebe093230ca297bdd95b92c
+            jcr:data="{Binary}\0"
+            jcr:lastModified="{Date}2025-05-08T08:59:28.036Z"
+            jcr:lastModifiedBy="dam-update-service"
+            jcr:primaryType="oak:Resource"/>
+    </dam:internal>
+</jcr:root>

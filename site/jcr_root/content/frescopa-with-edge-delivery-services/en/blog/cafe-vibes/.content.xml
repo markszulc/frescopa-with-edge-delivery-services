@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-07-02T07:43:30.628Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2025-07-02T07:43:38.242Z"
+        cq:lastReplicated_publish="{Date}2025-07-02T07:43:38.242Z"
+        cq:lastReplicated_scene7="{Date}2025-07-02T03:28:36.181Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Café Vibes, Anywhere: How to Create a Frescopa Moment at Home or Work"
+        jcr:uuid="0d726be7-9e73-4d88-8890-4f8f9a6a228f"
+        sling:resourceType="core/franklin/components/page/v1/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <block
+                    jcr:created="{Date}2025-07-02T03:20:50.492Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-07-02T03:21:51.025Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    image="/content/dam/frescopa/en/stock/AdobeStock_178628880.jpeg"
+                    model="hero"
+                    modelFields="[image,imageAlt,text]"
+                    name="Hero"
+                    text="&lt;h1>Café Vibes, Anywhere: How to Create a Frescopa Moment at Home or Work&lt;/h1>"/>
+                <text
+                    jcr:created="{Date}2025-07-02T02:04:18.665Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-07-02T07:43:30.625Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p>At Frescopa, we believe great coffee isn’t just about taste—it’s about atmosphere. That first sip should transport you, even just for a moment, to a place of calm, clarity, and creativity. Whether you’re in a bustling home office, a shared co-working space, or your kitchen before sunrise, here’s how to create your very own Frescopa Moment—no Barista required!&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h4>☕ 1. The Brew Ritual: Slow It Down&lt;/h4>&#xa;&lt;p>Start with the ritual itself. Brewing your coffee should be a break from the day, not just a step in it.&lt;/p>&#xa;&lt;ul>&#xa; &lt;li>&lt;p>Choose your method: French press for boldness, pour-over for clarity, or espresso for that perfect punch.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>Use your senses: Watch the bloom, hear the drip, inhale the aroma.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>Tip: Our Frescopa Origin Series beans are roasted to elevate each method. Try the “Golden Hour” blend with a V60 for citrusy brightness.&lt;/p>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>\ud83c\udfb6 2. Curate Your Café Soundtrack&lt;/h3>&#xa;&lt;p>Silence isn’t always golden. Background ambiance can transform your mood.&lt;/p>&#xa;&lt;ul>&#xa; &lt;li>&lt;p>Play the vibe: We’ve created a &lt;a title=&quot;Frescopa Café Playlist&quot; href=&quot;#&quot;>Frescopa Café Playlist&lt;/a> filled with mellow jazz, lo-fi beats, and indie acoustics. No awkward café eavesdropping—just pure ambiance.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>Bonus: White noise or “coffee shop chatter” soundscapes also help boost focus.&lt;/p>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>\ud83d\udd6f️ 3. Set the Mood with Lighting &amp;amp; Texture&lt;/h3>&#xa;&lt;p>Environment matters. Reclaim your space—even a corner of your desk.&lt;/p>&#xa;&lt;ul>&#xa; &lt;li>&lt;p>Warm lighting: Swap out harsh overheads for a lamp or soft LED strip.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>Natural textures: Add a ceramic mug, linen napkin, or wooden tray.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>Signature scent: A coffee-scented candle or diffuser brings it all together.&lt;/p>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>\ud83e\udeb4 4. Add a Ritual Object&lt;/h3>&#xa;&lt;p>Something that reminds you: this moment is yours.&lt;/p>&#xa;&lt;ul>&#xa; &lt;li>&lt;p>A favorite mug (yes, we love our Frescopa “Sip Happens” ceramic classic).&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>A handwritten quote on a sticky note.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>A small plant or fresh flower in a jar.&lt;/p>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>It’s not about perfection—it’s about intention.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>\ud83e\udde0 5. Make Space for Pause&lt;/h3>&#xa;&lt;p>Use your Frescopa moment to reflect, not scroll.&lt;/p>&#xa;&lt;ul>&#xa; &lt;li>&lt;p>Write one sentence in a journal.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>Take five deep breaths.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>Look out the window and watch the world go by.&lt;/p>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>These micro-pauses are where clarity begins—and where creativity brews.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h3>✨ Wherever You Are, You’re Invited&lt;/h3>&#xa;&lt;p>You don’t need a trendy café to feel grounded, inspired, or caffeinated. Frescopa is about crafting experiences around coffee—ones that make everyday life a little more artful, a little more delicious, and a lot more intentional.&lt;/p>&#xa;&lt;p>So take a breath. Take a sip. And take the moment.&lt;/p>&#xa;&lt;p>#YourFrescopaMoment&lt;/p>&#xa;&lt;p>Tag us in your space—we’d love to see how you do café vibes.&lt;/p>"/>
+            </section>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="909c3b07-6ed7-4835-8f9b-887099dbc3b3">
+    <jcr:content
+        jcr:lastModified="{Date}2025-03-06T08:36:27.630Z"
+        jcr:lastModifiedBy="apogupta@adobe.com"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Products"
+        dmpublish-mode="manual"
+        metadataSchema="/conf/global/settings/dam/adminui-extension/metadataschema/image-tagging-default"
+        processingProfile="/conf/global/settings/dam/processing/image-tagging-service-product"
+        s7-sync-mode="include">
+        <cq:discarded jcr:primaryType="oak:Unstructured">
+            <_x0031_2c02410-c758-49bb-b6c5-76b42befdee5 jcr:primaryType="oak:Unstructured"/>
+            <_x0033_5e65b1e-974d-4313-be74-d5f7fcdf4b76 jcr:primaryType="oak:Unstructured"/>
+            <_x0034_67617a7-cfde-4baf-b0d8-edb076c03567 jcr:primaryType="oak:Unstructured"/>
+            <_x0037_3126e7c-e4d1-4895-a98d-f830c864f5f7 jcr:primaryType="oak:Unstructured"/>
+            <_x0037_5cfa21d-1b3d-40ce-8804-350bc6aee59d jcr:primaryType="oak:Unstructured"/>
+            <_x0037_bcbd44c-ddee-4a2f-95be-45d5820a46e2 jcr:primaryType="oak:Unstructured"/>
+            <_x0038_6be389a-1f69-4fae-b11c-5c1630780d1b jcr:primaryType="oak:Unstructured"/>
+            <_x0039_0e3cb25-3335-43c9-b38c-e1db1b5e70cf jcr:primaryType="oak:Unstructured"/>
+            <a4e8b692-6ea8-49a4-ac69-f0970da26eed jcr:primaryType="oak:Unstructured"/>
+            <b5327925-be25-41d5-a150-b0b97a33a658 jcr:primaryType="oak:Unstructured"/>
+            <cf6d49d2-fcdc-486d-902e-a83683be0160 jcr:primaryType="oak:Unstructured"/>
+            <cfeb3958-1505-447e-b0ae-1964e1831ae1 jcr:primaryType="oak:Unstructured"/>
+            <e0c06e5d-1950-4a04-86c1-deb00df8c8ab jcr:primaryType="oak:Unstructured"/>
+        </cq:discarded>
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

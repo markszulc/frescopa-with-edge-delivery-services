@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="c244d1f4-02ad-4c29-86cd-a22f02e9be1b">
+    <jcr:content
+        jcr:lastModified="{Date}2025-02-24T06:27:57.979Z"
+        jcr:lastModifiedBy="apogupta@adobe.com"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Offers"
+        dmpublish-mode="immediate"
+        s7-sync-mode="include"
+        sourcing="false">
+        <policies jcr:primaryType="nt:unstructured">
+            <cfm
+                jcr:primaryType="nt:unstructured"
+                policy-cfm-allowedModelsByPaths="[/conf/frescopa/settings/dam/cfm/models/offer]"/>
+        </policies>
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Template"
+    allowedPaths="[/content/entities(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-02-21T11:56:46.612Z"
+        cq:lastModifiedBy="gknob@adobe.com"
+        cq:lastReplicated="{Date}2025-05-15T10:55:39.487Z"
+        cq:lastReplicated_publish="{Date}2025-05-15T10:55:39.487Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
+        jcr:description="Represents different coffee-based beverages, their ingredients, and preparation steps."
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Beverage"
+        sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
+        sling:resourceType="dam/cfm/models/console/components/data/entity/default"
+        isLocked="{Boolean}true"
+        status="enabled">
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:primaryType="nt:unstructured"/>
+        <model
+            cq:targetPath="/content/entities"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="wcm/scaffolding/components/scaffolding"
+            dataTypesConfig="/mnt/overlay/settings/dam/cfm/models/formbuilderconfig/datatypes"
+            maxGeneratedOrder="20">
+            <cq:dialog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/authoring/dialog">
+                <content
+                    jcr:lastModified="{Date}2025-02-21T11:56:33.271Z"
+                    jcr:lastModifiedBy="gknob@adobe.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        maxGeneratedOrder="20">
+                        <name
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Name"
+                            metaType="text-single"
+                            name="name"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </name>
+                        <baseCoffeeType
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                            allowNew="{Boolean}true"
+                            fieldLabel="Base Coffee Type"
+                            filter="hierarchy"
+                            fragmentmodelreference="[/conf/frescopa/settings/dam/cfm/models/coffee-type]"
+                            fragmentmodelreferencebytag="[]"
+                            metaType="fragment-reference"
+                            name="baseCoffeeType"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </baseCoffeeType>
+                        <ingredients
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                            fieldLabel="Ingredients"
+                            metaType="text-single"
+                            name="ingredients"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string[]">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                name="ingredients"
+                                validation="cfm.validation.none">
+                                <granite:data jcr:primaryType="nt:unstructured"/>
+                            </field>
+                        </ingredients>
+                        <preparationSteps
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
+                            cfm-element="Preparation Steps"
+                            default-mime-type="text/html"
+                            metaType="text-multi"
+                            name="preparationSteps"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/multiline">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </preparationSteps>
+                        <servingStyle
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Serving Style"
+                            metaType="text-single"
+                            name="servingStyle"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </servingStyle>
+                        <calories
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                            fieldLabel="Calories (Approximate)"
+                            metaType="number"
+                            name="calories"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            step="any"
+                            typeHint="long"
+                            valueType="long">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </calories>
+                        <image
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/contentreference"
+                            fieldLabel="Image"
+                            filter="hierarchy"
+                            metaType="reference"
+                            name="image"
+                            renderReadOnly="false"
+                            rootPath="/content/dam"
+                            showEmptyInReadOnly="true"
+                            showThumbnail="false"
+                            validation="[cfm.validation.contenttype.image]"
+                            valueType="string/reference">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </image>
+                    </items>
+                </content>
+            </cq:dialog>
+        </model>
+        <change-register jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

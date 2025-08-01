@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    dam:processingId="74b7a005-f31d-4406-a0ce-d3b7365603bc"
+    dam:sha1="f48d8a3719a5032a74155efccb5ae04ba787e9ef"
+    dam:size="{Long}363"
+    dc:format="application/xml"
+    jcr:primaryType="nt:unstructured">
+    <dam:internal jcr:primaryType="nt:unstructured">
+        <delivery_f48d8a3719a5032a74155efccb5ae04ba787e9ef
+            jcr:data="{Binary}\0"
+            jcr:lastModified="{Date}2025-05-08T08:59:28.682Z"
+            jcr:lastModifiedBy="dam-update-service"
+            jcr:primaryType="oak:Resource"/>
+    </dam:internal>
+</jcr:root>

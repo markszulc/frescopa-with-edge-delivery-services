@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="7b35cba6-c2d4-4315-97c1-3d2a7bdad735">
+    <jcr:content
+        cq:conf="\0"
+        jcr:lastModified="{Date}2025-02-17T04:10:27.127Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Campaigns"
+        postProcessWF="System Default">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

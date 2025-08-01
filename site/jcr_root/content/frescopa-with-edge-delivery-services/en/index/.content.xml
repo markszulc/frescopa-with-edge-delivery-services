@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="480b7aa2-a0d0-47c2-9030-d544a62a2f8d">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-06-29T11:11:43.183Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2025-06-29T11:12:06.373Z"
+        cq:lastReplicated_preview="{Date}2025-05-12T14:02:17.752Z"
+        cq:lastReplicated_publish="{Date}2025-06-29T11:12:06.373Z"
+        cq:lastReplicated_scene7="{Date}2025-06-27T05:47:33.024Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_preview="workflow-process-service"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:robotsTags="index"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Frescopa - Coffee, Tea &amp; Accessories"
+        jcr:uuid="b2a85b01-f19b-474c-ba1f-45e1b3b3d59a"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        initialContentRefTarget="false"
+        unsetTitle="false">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section_0
+                jcr:lastModified="{Date}2025-06-27T11:27:49.601Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                headline="Try a new roast at&#xa;a Fréscopa near you!"
+                modelFields="[name,style]"
+                name="Banner">
+                <block
+                    jcr:created="{Date}2025-02-13T06:57:59.942Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-06-27T07:32:09.204Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    classes="[dark,right,frescopa-background-yellow]"
+                    cta1="/quiz"
+                    cta1Text="Take our Coffee Quiz"
+                    cta2Type="secondary"
+                    eyebrow="MyBarista Coffee Quiz"
+                    fileReference="/content/dam/frescopa-with-edge-delivery-services/en/campaigns/holdingcup.png"
+                    fileReferenceAlt="Decorative Background"
+                    model="teaser"
+                    modelFields="[fileReference,fileReferenceAlt,classes,eyebrow,title,titleType,longDescr,shortDescr,cta1Type,cta1Text,cta1,cta2Type,cta2Text,cta2]"
+                    name="Teaser"
+                    title="Your perfect coffee is four questions away!"
+                    titleType="h3"/>
+            </section_0>
+            <section_1
+                jcr:lastModified="{Date}2025-06-17T06:08:16.104Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                modelFields="[name,style]"
+                name="Next Best Offer">
+                <block_267502289
+                    jcr:created="{Date}2025-02-20T09:30:54.621Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-04-04T14:19:08.055Z"
+                    jcr:lastModifiedBy="MSIEGEL@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    model="offer"
+                    modelFields="[offerpath,variation]"
+                    name="Offer"
+                    offerpath="/content/dam/frescopa-with-edge-delivery-services/en/offers/fall-in-love-my-barista-subscription"
+                    variation="main"/>
+                <_x0031__1741590781612
+                    jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                    jcr:primaryType="nt:unstructured"
+                    callToAction="Learn More"
+                    callToAction_x0040_LastModified="{Date}2025-02-20T09:13:45.798Z"
+                    callToAction_x0040_LastModifiedBy="MSZULC@ADOBE.COM"
+                    ctaUrl="/subscription"
+                    ctaUrl_x0040_LastModified="{Date}2025-02-23T22:05:12.880Z"
+                    ctaUrl_x0040_LastModifiedBy="MSZULC@ADOBE.COM"
+                    detail="&lt;p>&lt;span style=&quot;font-size: 12.0pt; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;&quot;>Discover world-class coffee beans, expertly roasted to perfection. Every cup is a moment of indulgence.&lt;/span>&lt;/p>"
+                    detail_x0040_ContentType="text/html"
+                    detail_x0040_LastModified="{Date}2025-03-03T18:36:52.271Z"
+                    detail_x0040_LastModifiedBy="cdulimba@adobe.com"
+                    headline="Crafted for Coffee Lovers – Curated for Your Palette"
+                    headline_x0040_LastModified="{Date}2025-03-03T18:36:27.781Z"
+                    headline_x0040_LastModifiedBy="cdulimba@adobe.com"/>
+                <_x0031__1743194417894
+                    jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                    jcr:primaryType="nt:unstructured"
+                    callToAction="Discover"
+                    callToAction_x0040_LastModified="{Date}2025-03-26T02:50:09.480Z"
+                    callToAction_x0040_LastModifiedBy="gknob@adobe.com"
+                    ctaUrl="/subscription"
+                    ctaUrl_x0040_LastModified="{Date}2025-03-26T02:50:09.480Z"
+                    ctaUrl_x0040_LastModifiedBy="amitkumar@adobe.com"
+                    detail="&lt;p>Discover world-class coffee beans, expertly roasted to perfection. Every cup is a moment of indulgence.&lt;/p>"
+                    detail_x0040_ContentType="text/html"
+                    detail_x0040_LastModified="{Date}2025-03-26T02:50:09.479Z"
+                    detail_x0040_LastModifiedBy="amitkumar@adobe.com"
+                    headline="Experience coffee made for you. Frescopa brings your perfect brew to life."
+                    headline_x0040_LastModified="{Date}2025-03-26T02:50:09.478Z"
+                    headline_x0040_LastModifiedBy="ilagno@adobe.com"/>
+            </section_1>
+            <section_5143505
+                jcr:created="{Date}2025-03-02T11:58:11.169Z"
+                jcr:createdBy="MSZULC@ADOBE.COM"
+                jcr:lastModified="{Date}2025-06-17T06:00:45.894Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]"
+                name="Locations">
+                <block_1081823914
+                    jcr:created="{Date}2025-02-20T09:31:00.763Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-06-29T11:11:43.151Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    cta="Search Me"
+                    fileReference="/content/dam/frescopa-with-edge-delivery-services/en/campaigns/holdingcup.png"
+                    headline="Try a new roast at&#xa;a Fréscopa near you!"
+                    model="storelocator"
+                    modelFields="[fileReference,headline,subhead,search-placeholder,cta]"
+                    name="Store Locator"
+                    search-placeholder="Post Code"
+                    subhead="Find Another Location NOW"/>
+            </section_5143505>
+            <section_258809722
+                jcr:created="{Date}2025-03-02T11:56:29.209Z"
+                jcr:createdBy="MSZULC@ADOBE.COM"
+                jcr:lastModified="{Date}2025-06-17T06:00:55.853Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]"
+                name="Top Sellers"
+                style="[background]">
+                <title
+                    jcr:created="{Date}2025-03-02T11:57:08.469Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-06-17T05:51:23.398Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/title/v1/title"
+                    model="title"
+                    title="Fréscopa top sellers."
+                    titleType="h2"/>
+                <block
+                    jcr:created="{Date}2025-03-02T12:20:49.257Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-04-04T14:19:08.136Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    filter="cards"
+                    name="Cards">
+                    <item
+                        jcr:created="{Date}2025-03-02T12:21:03.154Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.140Z"
+                        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/products/HouseBlend-Slight Right.png"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h5>House Blend- Medium Roast&lt;/h5>&#xa;&lt;p>$14.99&lt;/p>&#xa;&lt;p>&lt;a href=&quot;/content/frescopa/en/coffee.html&quot;>Shop Now&lt;/a>&lt;/p>"/>
+                    <item_1149094020
+                        jcr:created="{Date}2025-03-02T12:21:10.517Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.146Z"
+                        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/products/Machine _96017153.jpeg"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h5>Fréscopa Smart Machine&lt;/h5>&#xa;&lt;p>$249.99&lt;/p>&#xa;&lt;p>&lt;a href=&quot;/content/frescopa/en/machines.html&quot;>Show Now&lt;/a>&lt;/p>"/>
+                    <item_1041877500
+                        jcr:created="{Date}2025-03-02T12:21:16.000Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.151Z"
+                        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/products/AdobeStock_61092430.jpeg"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h5>Insulated Travel Thermos&lt;/h5>&#xa;&lt;p>$39.99&lt;/p>&#xa;&lt;p>&lt;a href=&quot;/content/frescopa/accessories.html&quot;>Shop Now&lt;/a>&lt;/p>"/>
+                </block>
+            </section_258809722>
+            <section_1209180770
+                jcr:created="{Date}2025-02-28T12:07:37.372Z"
+                jcr:createdBy="MSZULC@ADOBE.COM"
+                jcr:lastModified="{Date}2025-06-17T06:01:09.667Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]"
+                name="Product Categories"
+                style="[card-tiles]">
+                <title
+                    jcr:created="{Date}2025-02-28T12:17:23.818Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-06-17T05:51:37.083Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/title/v1/title"
+                    model="title"
+                    title="Shop all Fréscopa products."
+                    titleType="h2"/>
+                <block
+                    jcr:created="{Date}2025-02-28T12:04:10.332Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-04-04T14:19:08.166Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    filter="cards"
+                    name="Cards">
+                    <item
+                        jcr:created="{Date}2025-02-28T12:04:28.511Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.171Z"
+                        jcr:lastModifiedBy="gknob@adobe.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/line-art/machine.png"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h5>Coffee Machines&lt;/h5>"/>
+                    <_x0035__1740744342331
+                        jcr:created="{Date}2025-02-28T12:04:28.511Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.176Z"
+                        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/line-art/baggedcoffee.png"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h5>Bagged Coffee&lt;/h5>"/>
+                    <_x0034__1740744339787
+                        jcr:created="{Date}2025-02-28T12:04:28.511Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.182Z"
+                        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/line-art/coffeepods.png"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h5>Coffee Pods&lt;/h5>"/>
+                    <_x0033__1740744337889
+                        jcr:created="{Date}2025-02-28T12:04:28.511Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.187Z"
+                        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/line-art/bundles.png"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h5>Bundles&lt;/h5>"/>
+                    <_x0032__1740744335649
+                        jcr:created="{Date}2025-02-28T12:04:28.511Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.193Z"
+                        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/line-art/accessories.png"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h5>Accessories&lt;/h5>"/>
+                </block>
+            </section_1209180770>
+            <section
+                jcr:created="{Date}2025-02-28T10:16:49.925Z"
+                jcr:createdBy="MSZULC@ADOBE.COM"
+                jcr:lastModified="{Date}2025-06-23T13:19:34.995Z"
+                jcr:lastModifiedBy="sandru@adobe.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]"
+                name="Featured Content"
+                style="[home]">
+                <block
+                    jcr:created="{Date}2025-02-28T10:17:28.686Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-04-04T14:19:08.206Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    filter="cards"
+                    name="Cards">
+                    <item
+                        jcr:created="{Date}2025-02-28T10:17:39.346Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.211Z"
+                        jcr:lastModifiedBy="ajani@adobe.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/stock/Cafe/AdobeStock_129973255.jpeg"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h4>Elevate Your Coffee Game&lt;/h4>&#xa;&lt;p>Experience the bright, citrusy notes and smooth finish of Morning Muse Light Roast. A perfect start to any day.&lt;/p>&#xa;&lt;p>&lt;a href=&quot;/content/frescopa/en/coffee.html&quot; title=&quot;Learn More&quot;>Learn More&lt;/a>&lt;/p>"/>
+                    <item_1681782575
+                        jcr:created="{Date}2025-02-28T10:17:46.284Z"
+                        jcr:createdBy="MSZULC@ADOBE.COM"
+                        jcr:lastModified="{Date}2025-04-04T14:19:08.216Z"
+                        jcr:lastModifiedBy="gknob@adobe.com"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/franklin/components/block/v1/block/item"
+                        image="/content/dam/frescopa-with-edge-delivery-services/en/campaigns/MyBarista/Package MyBarista.png"
+                        model="card"
+                        modelFields="[image,text]"
+                        name="Card"
+                        text="&lt;h3>Your coffee. On your doorstep.&lt;/h3>&#xa;&lt;p>Start a &lt;strong>MyBarista subscription&lt;/strong> to get a carefully selected variety of coffees sent to you each month. As you rate the coffees you try, we’ll fine-tune your flavor profile to give you flavors we think you’ll love.&lt;/p>&#xa;&lt;p>&lt;a title=&quot;Start Now&quot; href=&quot;/content/frescopa/en/subscription.html&quot;>Start Now&lt;/a>&lt;/p>"/>
+                </block>
+            </section>
+            <_x0032__1741590865634
+                jcr:lastModified="{Date}2025-06-17T06:01:32.246Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                modelFields="[name,style]"
+                name="Loyalty">
+                <_x0031__1741590781612
+                    jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                    jcr:primaryType="nt:unstructured"
+                    callToAction="Learn More"
+                    callToAction_x0040_LastModified="{Date}2025-02-20T09:13:45.798Z"
+                    callToAction_x0040_LastModifiedBy="MSZULC@ADOBE.COM"
+                    ctaUrl="/subscription"
+                    ctaUrl_x0040_LastModified="{Date}2025-02-23T22:05:12.880Z"
+                    ctaUrl_x0040_LastModifiedBy="MSZULC@ADOBE.COM"
+                    detail="&lt;p>&lt;span style=&quot;font-size: 12.0pt; font-family: 'Times New Roman',serif; mso-fareast-font-family: 'Times New Roman'; mso-font-kerning: 0pt; mso-ligatures: none; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;&quot;>Discover world-class coffee beans, expertly roasted to perfection. Every cup is a moment of indulgence.&lt;/span>&lt;/p>"
+                    detail_x0040_ContentType="text/html"
+                    detail_x0040_LastModified="{Date}2025-03-03T18:36:52.271Z"
+                    detail_x0040_LastModifiedBy="cdulimba@adobe.com"
+                    headline="Crafted for Coffee Lovers – Curated for Your Palette"
+                    headline_x0040_LastModified="{Date}2025-03-03T18:36:27.781Z"
+                    headline_x0040_LastModifiedBy="cdulimba@adobe.com"/>
+                <block
+                    jcr:created="{Date}2025-03-10T08:17:13.256Z"
+                    jcr:createdBy="amitkumar@adobe.com"
+                    jcr:lastModified="{Date}2025-04-04T14:19:08.235Z"
+                    jcr:lastModifiedBy="amitkumar@adobe.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    classes="[light,left]"
+                    cta1="/signup"
+                    cta1Text="Claim Rewards"
+                    cta1Type="secondary"
+                    fileReference="/content/dam/frescopa-with-edge-delivery-services/en/rewards/reward-banner.png"
+                    fileReferenceAlt="Banner Image"
+                    longDescr="&lt;p>Surprise your loved ones with the ultimate coffee experience. Our gift cards are the perfect way to share the joy of a freshly brewed cup from our top-of-the-line coffee machines.&lt;/p>"
+                    model="reward"
+                    modelFields="[fileReference,fileReferenceAlt,classes,eyebrow,title,titleType,longDescr,shortDescr,cta1Type,cta1Text,cta1,cta2Type,cta2Text,cta2]"
+                    name="Reward"
+                    title="Rewards unclaimed is a Gift missed!"
+                    titleType="h6"/>
+            </_x0032__1741590865634>
+        </root>
+        <image
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/frescopa-with-edge-delivery-services/en/screenshots/frescopahomepage.png"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="b80f2495-5406-40a4-8c7f-7416c8de639b">
+    <jcr:content
+        cq:lastModified="{Date}2025-04-14T17:56:49.794Z"
+        cq:lastModifiedBy="Frazer@adobe.com"
+        cq:lastReplicationAction_preview="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        cq:translationJob="[/content/projects/frescopa/frescopa/jcr:content/dashboard/gadgets/translationjob0]"
+        cq:translationStatus="DRAFT"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article page"
+        jcr:uuid="a269d940-211d-4f59-b3b0-a1936651e1a7"
+        sling:resourceType="core/franklin/components/page/v1/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:created="{Date}2025-04-14T17:43:55.184Z"
+                jcr:createdBy="Frazer@adobe.com"
+                jcr:lastModified="{Date}2025-04-14T17:48:51.517Z"
+                jcr:lastModifiedBy="Frazer@adobe.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]"
+                name="Title section"
+                style="[article,highlight,numbered,card-tiles]">
+                <block_849036580
+                    jcr:created="{Date}2025-04-14T17:49:21.751Z"
+                    jcr:createdBy="Frazer@adobe.com"
+                    jcr:lastModified="{Date}2025-04-14T17:56:49.762Z"
+                    jcr:lastModifiedBy="Frazer@adobe.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    classes="[light,left]"
+                    fileReference="/content/dam/frescopa/en/articles/article.jpg"
+                    model="teaser"
+                    modelFields="[fileReference,fileReferenceAlt,classes,eyebrow,title,titleType,longDescr,shortDescr,cta1Type,cta1Text,cta1,cta2Type,cta2Text,cta2]"
+                    name="Teaser"
+                    title="Teaser Title"
+                    titleType="h3"/>
+                <title
+                    jcr:created="{Date}2025-04-14T17:44:04.326Z"
+                    jcr:createdBy="Frazer@adobe.com"
+                    jcr:lastModified="{Date}2025-04-14T17:47:05.690Z"
+                    jcr:lastModifiedBy="Frazer@adobe.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/title/v1/title"
+                    model="title"
+                    title="Introducing Morning Muse Light Roast."
+                    titleType="h1"/>
+                <title_1745557940
+                    jcr:created="{Date}2025-04-14T17:46:35.698Z"
+                    jcr:createdBy="Frazer@adobe.com"
+                    jcr:lastModified="{Date}2025-04-14T17:46:46.018Z"
+                    jcr:lastModifiedBy="Frazer@adobe.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/title/v1/title"
+                    model="title"
+                    title="Sourced from a unique mix of micro lots from Hulia, Columbia, this light roast boasts crisp cherry &amp; floral notes while providing deep, sweet flavors of caramel and chocolate."
+                    titleType="h6"/>
+            </section>
+            <section_1921120916
+                jcr:created="{Date}2025-04-14T17:44:24.169Z"
+                jcr:createdBy="Frazer@adobe.com"
+                jcr:lastModified="{Date}2025-04-14T17:44:24.169Z"
+                jcr:lastModifiedBy="Frazer@adobe.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]">
+                <columns
+                    jcr:created="{Date}2025-04-14T17:44:32.658Z"
+                    jcr:createdBy="Frazer@adobe.com"
+                    jcr:lastModified="{Date}2025-04-14T17:44:32.658Z"
+                    jcr:lastModifiedBy="Frazer@adobe.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/columns/v1/columns"
+                    columns="2"
+                    rows="1">
+                    <row1 jcr:primaryType="nt:unstructured">
+                        <col1 jcr:primaryType="nt:unstructured">
+                            <image
+                                jcr:created="{Date}2025-04-14T17:44:59.826Z"
+                                jcr:createdBy="Frazer@adobe.com"
+                                jcr:lastModified="{Date}2025-04-14T17:44:59.826Z"
+                                jcr:lastModifiedBy="Frazer@adobe.com"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/franklin/components/image/v1/image"/>
+                        </col1>
+                        <col2 jcr:primaryType="nt:unstructured">
+                            <text
+                                jcr:created="{Date}2025-04-14T17:45:09.208Z"
+                                jcr:createdBy="Frazer@adobe.com"
+                                jcr:lastModified="{Date}2025-04-14T17:45:09.208Z"
+                                jcr:lastModifiedBy="Frazer@adobe.com"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/franklin/components/text/v1/text"/>
+                        </col2>
+                    </row1>
+                </columns>
+            </section_1921120916>
+            <section_737259784
+                jcr:created="{Date}2025-04-14T17:44:40.629Z"
+                jcr:createdBy="Frazer@adobe.com"
+                jcr:lastModified="{Date}2025-04-14T17:44:40.629Z"
+                jcr:lastModifiedBy="Frazer@adobe.com"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]"/>
+        </root>
+    </jcr:content>
+    <forms-demo/>
+</jcr:root>

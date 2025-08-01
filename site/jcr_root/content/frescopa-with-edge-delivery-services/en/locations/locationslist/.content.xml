@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="d0d93894-cdcc-45e0-a7fd-050945e87824">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-06-17T10:51:19.669Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2025-06-27T05:47:51.460Z"
+        cq:lastReplicated_publish="{Date}2025-06-27T05:47:51.460Z"
+        cq:lastReplicated_scene7="{Date}2025-06-27T05:47:51.460Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:template="/libs/core/franklin/templates/spreadsheet"
+        cq:translationJob="[/content/projects/frescopa/frescopa/jcr:content/dashboard/gadgets/translationjob0]"
+        cq:translationStatus="DRAFT"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="LocationsList"
+        jcr:uuid="c7f88519-be58-403f-aff7-eb054554ef59"
+        sling:resourceType="core/franklin/components/spreadsheet/v1/spreadsheet"
+        columns="[locationName,phoneNumber,streetAddress,city,postzipCode,lat,long]"
+        hideInNav="{Boolean}true">
+        <row
+            jcr:primaryType="nt:unstructured"
+            city="Las Vegas"
+            lat="36.121174"
+            locationName="Fréscopa Las Vegas"
+            long="-115.1722275"
+            phoneNumber="+1 408-536-2800"
+            postzipCode="89109"
+            streetAddress="3355 S Las Vegas Blvd"/>
+        <row_2073782770
+            jcr:primaryType="nt:unstructured"
+            city="Sydney"
+            lat="-33.8725818"
+            locationName="Fréscopa Sydney"
+            long="151.2012123"
+            phoneNumber="+61 2 9778 4100"
+            postzipCode="2000"
+            streetAddress="201 Sussex St"/>
+        <row_171886512
+            jcr:primaryType="nt:unstructured"
+            city="Basel"
+            lat="47.5464363"
+            locationName="Fréscopa Basel"
+            long="7.5891936"
+            phoneNumber="+41612265500"
+            postzipCode="4052"
+            streetAddress="Peter Merian-Strasse 80"/>
+    </jcr:content>
+</jcr:root>

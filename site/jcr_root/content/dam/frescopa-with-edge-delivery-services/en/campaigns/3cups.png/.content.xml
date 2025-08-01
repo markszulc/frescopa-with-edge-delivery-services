@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:machine="https://adobe.com/machine/1.0/" xmlns:identity="https://adobe.com/identity/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:summit="http://ns.adobe.com/xap/1.0/summit/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2b390eb3-2f77-4b6e-8791-6f5c01c71b0b">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2025-05-08T09:39:23.250Z"
+        cq:lastReplicated_preview="{Date}2025-03-11T02:22:23.039Z"
+        cq:lastReplicated_publish="{Date}2025-05-08T09:39:23.250Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_preview="nikolovs@adobe.com"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        dam:assetState="processed"
+        dam:asyncJobId="2025/2/27/18/23/24b7d3f0-8481-456d-9429-e20f09d5986b_10"
+        dam:processingAttempts="{Long}0"
+        dam:processingId="37f72055-1ab4-48a1-8821-8e7d7783eaa3"
+        dam:processingRenditions="[cqdam.metadata.custom1.xml]"
+        dam:processingRequestedDate="{Date}2025-02-27T18:23:16.509Z"
+        dam:runDMProcess="{Boolean}false"
+        dam:runPostProcess="{Boolean}false"
+        jcr:lastModified="{Date}2025-02-27T18:23:45.857Z"
+        jcr:lastModifiedBy="paladugu@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            cq:tags="[properties:orientation/landscape]"
+            dam:activationTarget="delivery"
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2025-02-27T18:23:44.812Z"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:predictedColors="{Long}[11069,36031]"
+            dam:Progressive="no"
+            dam:sha1="253f88511475a36b953f14c5f2151a256b0ed09f"
+            dam:size="{Long}283813"
+            dam:status="approved"
+            dc:format="image/png"
+            identity:perceptualHash="b3584cb74cacc993"
+            identity:sha256="7f17d6421bdea09a3ee912e90146e3e4fd4121cf26529d481d1ecd23792e5f77"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            machine:description="Three steaming coffee cups, each in a different color—deep red, warm brown, and soft orange—sit in a row against a textured, teal background. The steam from each cup curls whimsically, adding a sense of warmth and comfort. The illustration style is playful and inviting, perfect for a cozy coffee shop or a morning coffee campaign."
+            machine:keywords="[coffee,cups,steaming,illustration,teal background,red cup,brown cup,orange cup,whimsical steam,cozy]"
+            machine:keywords_xmpArrayType="rdf:Seq"
+            machine:processed="true"
+            machine:shortdescription="Three colorful coffee cups with whimsical steam on a teal background, evoking warmth and comfort."
+            photoshop:ColorMode="{Long}3"
+            summit:contentType="Banner"
+            tiff:BitsPerSample="{Long}[8,8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}480"
+            tiff:ImageWidth="{Long}1360"
+            brand="Frescopa">
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:lastModified="{Date}2025-02-17T03:31:59.648Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.6915"
+                    name="ROYAL_BLUE"
+                    rank="{Long}1"
+                    rgb="{Long}[37,95,119]"/>
+                <color2
+                    jcr:lastModified="{Date}2025-02-17T03:31:59.649Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.3085"
+                    name="EMERALD"
+                    rank="{Long}2"
+                    rgb="{Long}[37,94,111]"/>
+            </dam:colorDistribution>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <coffee_cup
+                    jcr:lastModified="{Date}2025-02-17T03:32:05.712Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.88"
+                    isCustom="{Boolean}false"
+                    name="coffee cup"/>
+                <teacup
+                    jcr:lastModified="{Date}2025-02-17T03:32:05.713Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.814"
+                    isCustom="{Boolean}false"
+                    name="teacup"/>
+                <composite_photography
+                    jcr:lastModified="{Date}2025-02-17T03:32:05.713Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.812"
+                    isCustom="{Boolean}false"
+                    name="composite photography"/>
+                <graphic_design
+                    jcr:lastModified="{Date}2025-02-17T03:32:05.714Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.766"
+                    isCustom="{Boolean}false"
+                    name="graphic design"/>
+                <sip
+                    jcr:lastModified="{Date}2025-02-17T03:32:05.714Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.764"
+                    isCustom="{Boolean}false"
+                    name="sip"/>
+                <illustration
+                    jcr:lastModified="{Date}2025-02-17T03:32:05.714Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.753"
+                    isCustom="{Boolean}false"
+                    name="illustration"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:lastModified="{Date}2025-02-17T03:32:05.717Z"
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

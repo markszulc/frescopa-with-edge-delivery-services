@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-07-02T09:52:26.948Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2025-07-02T09:52:34.610Z"
+        cq:lastReplicated_publish="{Date}2025-07-02T09:52:34.610Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Brew Better Days: Why Your Morning Routine Deserves More Than Just Instant Coffee"
+        jcr:uuid="10f47733-6d03-4cef-a5f0-0149ba054dca"
+        sling:resourceType="core/franklin/components/page/v1/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <block
+                    jcr:created="{Date}2025-07-02T09:49:48.173Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-07-02T09:52:26.922Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    image="/content/dam/frescopa/en/stock/Artistic/Frescopa coffee artistic 101.png"
+                    model="hero"
+                    modelFields="[image,imageAlt,text]"
+                    name="Hero"
+                    text="&lt;h1>Brew Better Days: Why Your Morning Routine Deserves More Than Just Instant Coffee&lt;/h1>&#xa;&lt;h1>&amp;nbsp;&lt;/h1>"/>
+            </section>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -18,8 +18,8 @@
             "Edge Delivery Services",
             "Universal Editor"
         ],
-        "docsUrl": "",
-        "showcaseUrl": "",
+        "docsUrl": "https://github.com/aem-showcase/frescopa",
+        "showcaseUrl": "https://frescopa.coffee",
         "sourceRepositoryUrl": "https://git.corp.adobe.com/CQ/sites-franklin",
         "openItem": "{Path}/en/index"
     }

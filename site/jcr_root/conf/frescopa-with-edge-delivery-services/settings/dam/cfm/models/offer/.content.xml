@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Template"
+    allowedPaths="[/content/entities(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-02-20T09:14:35.396Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2025-05-15T10:55:39.487Z"
+        cq:lastReplicated_publish="{Date}2025-05-15T10:55:39.487Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:scaffolding="/conf/frescopa/settings/dam/cfm/models/offer/jcr:content/model"
+        cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
+        jcr:mixinTypes="[cq:ReplicationStatus2]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Offer"
+        sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
+        sling:resourceType="dam/cfm/models/console/components/data/entity/default"
+        isLocked="{Boolean}true"
+        status="enabled">
+        <metadata
+            dam:scene7PublishPending="{Boolean}true"
+            jcr:primaryType="nt:unstructured"/>
+        <model
+            cq:targetPath="/content/entities"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="wcm/scaffolding/components/scaffolding"
+            dataTypesConfig="/mnt/overlay/settings/dam/cfm/models/formbuilderconfig/datatypes"
+            maxGeneratedOrder="20">
+            <cq:dialog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/authoring/dialog">
+                <content
+                    jcr:lastModified="{Date}2025-02-20T09:14:35.396Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        maxGeneratedOrder="20">
+                        <_x0031_740042363057
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Headline"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="headline"
+                            renderReadOnly="false"
+                            required="on"
+                            showEmptyInReadOnly="true"
+                            translatable="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_740042363057>
+                        <_x0031_740042481164
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/admin/components/authoring/contenteditor/multieditor"
+                            cfm-element="Detail"
+                            checked="false"
+                            default-mime-type="text/html"
+                            listOrder="2"
+                            metaType="text-multi"
+                            name="detail"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            translatable="true"
+                            valueType="string/multiline">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_740042481164>
+                        <_x0031_740042604127
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Call to Action"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="callToAction"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            translatable="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_740042604127>
+                        <_x0031_740042639785
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="CTA URL"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="ctaUrl"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            validation="None"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_740042639785>
+                    </items>
+                </content>
+            </cq:dialog>
+        </model>
+        <change-register jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

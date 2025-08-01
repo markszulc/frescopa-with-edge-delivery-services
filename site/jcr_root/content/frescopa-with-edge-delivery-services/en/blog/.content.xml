@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-07-02T09:39:13.817Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2025-07-02T09:39:18.702Z"
+        cq:lastReplicated_publish="{Date}2025-07-02T09:39:18.702Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2025-07-02T07:00:29.391Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Blog"
+        jcr:uuid="e481936b-61fc-44d7-8e23-b143bef37bbe"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        modelFields="[title,image,robots]">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <block_1398309862
+                    jcr:created="{Date}2025-07-02T09:37:30.607Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-07-02T09:39:13.812Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    classes="[left,frescopa-background-yellow,half-height]"
+                    longDescr="&lt;p>Don't miss out on the latest in coffee, tea, and everything else going on at Frescopa.&lt;/p>"
+                    model="teaser"
+                    modelFields="[fileReference,fileReferenceAlt,classes,eyebrow,title,titleType,longDescr,shortDescr,cta1Type,cta1Text,cta1,cta2Type,cta2Text,cta2]"
+                    name="Teaser"
+                    title="the Frescopa blog"
+                    titleType="h3"/>
+                <block
+                    jcr:created="{Date}2025-07-02T06:40:43.398Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-07-02T09:38:28.492Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    model="bloglist"
+                    modelFields="[heading]"
+                    name="Blog List"/>
+            </section>
+        </root>
+    </jcr:content>
+    <cafe-vibes/>
+    <whats-in-a-name/>
+    <moments-that-matter/>
+    <brew-better-days/>
+</jcr:root>

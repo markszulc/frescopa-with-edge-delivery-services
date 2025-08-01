@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="a66a632f-0412-4c3e-bdbb-ca8e1f03b50d">
+    <jcr:content
+        cq:isLanguageRoot="true"
+        cq:lastModified="{Date}2025-06-27T06:14:12.561Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:language="en"
+        jcr:mixinTypes="[mix:lockable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        initialContentRefTarget="false"
+        modelFields="[title,image,robots]"
+        unsetTitle="false">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"/>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+    <index/>
+    <coffee/>
+    <nav/>
+    <footer/>
+    <contact-us/>
+    <signup/>
+    <drafts/>
+    <machines/>
+    <tea/>
+    <search/>
+    <business/>
+    <accessories/>
+    <products/>
+    <subscription/>
+    <locations/>
+    <sustainability/>
+    <quiz/>
+    <placeholders/>
+    <about-us/>
+    <blog/>
+</jcr:root>

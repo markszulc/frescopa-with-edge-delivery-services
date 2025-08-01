@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="e05eb5e1-ca4f-47ac-b75c-64275793e03f">
+    <jcr:content
+        cq:conf="\0"
+        jcr:lastModified="{Date}2025-02-17T04:10:03.119Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Screenshots"
+        postProcessWF="System Default">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="d8eb2b3a-450e-41a2-af63-926de6f01bb8">
+    <jcr:content
+        cq:lastModified="{Date}2025-05-22T20:01:25.831Z"
+        cq:lastModifiedBy="chis@adobe.com"
+        cq:template="/libs/core/franklin/templates/page"
+        cq:translationJob="[/content/projects/frescopa/frescopa/jcr:content/dashboard/gadgets/translationjob0]"
+        cq:translationStatus="DRAFT"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Forms Demo"
+        jcr:uuid="d47898d1-0d69-4232-92a5-d074059cd647"
+        sling:resourceType="core/franklin/components/page/v1/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"/>
+        </root>
+    </jcr:content>
+</jcr:root>

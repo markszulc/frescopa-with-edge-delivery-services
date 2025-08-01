@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="2955e7ae-3695-4589-a334-28e6a01aac39">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="MyBarista">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

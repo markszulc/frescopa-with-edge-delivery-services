@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="de70cb24-e1c3-4aa9-bd6e-b4a709e66cf1">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-07-02T09:06:07.957Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2025-07-02T09:06:13.017Z"
+        cq:lastReplicated_publish="{Date}2025-07-02T09:06:13.017Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        cq:translationJob="[/content/projects/frescopa/frescopa/jcr:content/dashboard/gadgets/translationjob0]"
+        cq:translationStatus="DRAFT"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Footer"
+        jcr:uuid="2d01967b-0739-4952-bcfa-e650dd2d6c45"
+        sling:resourceType="core/franklin/components/page/v1/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section_519024273
+                jcr:created="{Date}2025-02-23T05:53:02.523Z"
+                jcr:createdBy="MSZULC@ADOBE.COM"
+                jcr:lastModified="{Date}2025-02-23T06:23:52.555Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]"
+                name="footer-links">
+                <text
+                    jcr:lastModified="{Date}2025-03-02T11:12:11.379Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p>&lt;a title=&quot;&quot; href=&quot;/content/frescopa/en/index.html&quot;>:frescopa_logo:&lt;/a>&lt;/p>&#xa;&lt;h6>Fréscopa Coffee &amp;amp; Tea&lt;/h6>&#xa;&lt;p>&lt;em>Smiles one cup at a time.&lt;/em>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>3900 Adobe Way, Lehi, UT 84043&lt;br>&lt;a href=&quot;mailto:info@frescopa.coffee&quot;>info@frescopa.coffee&lt;/a>&lt;br>(385) 345-0000&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>"/>
+                <columns
+                    jcr:created="{Date}2025-02-23T05:53:26.652Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-02-23T05:53:42.803Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/columns/v1/columns"
+                    columns="5"
+                    rows="1">
+                    <row1 jcr:primaryType="nt:unstructured">
+                        <col1 jcr:primaryType="nt:unstructured">
+                            <text
+                                jcr:created="{Date}2025-02-23T05:54:04.472Z"
+                                jcr:createdBy="MSZULC@ADOBE.COM"
+                                jcr:lastModified="{Date}2025-02-23T06:35:22.352Z"
+                                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/franklin/components/text/v1/text"
+                                text="&lt;h6>Machines&lt;/h6>&#xa;&lt;ul>&#xa; &lt;li>Espresso Machines&lt;/li>&#xa; &lt;li>Fréscopa Major&lt;/li>&#xa; &lt;li>Fréscopa Minor&lt;/li>&#xa; &lt;li>Autodrip Coffee Makers&lt;/li>&#xa; &lt;li>Coffee Grinders&lt;/li>&#xa;&lt;/ul>"/>
+                        </col1>
+                        <col2 jcr:primaryType="nt:unstructured">
+                            <text
+                                jcr:created="{Date}2025-02-23T05:54:10.397Z"
+                                jcr:createdBy="MSZULC@ADOBE.COM"
+                                jcr:lastModified="{Date}2025-02-23T07:42:05.441Z"
+                                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/franklin/components/text/v1/text"
+                                text="&lt;h6>Coffee&lt;/h6>&#xa;&lt;ul>&#xa; &lt;li>&lt;a href=&quot;/content/frescopa/en/coffee.html&quot;>Bagged Coffee&lt;/a>&lt;/li>&#xa; &lt;li>&lt;a href=&quot;/content/frescopa/en/coffee.html&quot;>Coffee Pods&lt;/a>&lt;/li>&#xa; &lt;li>Find a Retailer&lt;/li>&#xa; &lt;li>Fréscopa Affiliate&lt;/li>&#xa;&lt;/ul>"/>
+                        </col2>
+                        <col3 jcr:primaryType="nt:unstructured">
+                            <text
+                                jcr:created="{Date}2025-02-23T05:54:14.624Z"
+                                jcr:createdBy="MSZULC@ADOBE.COM"
+                                jcr:lastModified="{Date}2025-02-23T06:37:07.524Z"
+                                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/franklin/components/text/v1/text"
+                                text="&lt;h6>Tea&lt;/h6>&#xa;&lt;ul>&#xa; &lt;li>Loose Leaf&lt;/li>&#xa; &lt;li>Pods&lt;/li>&#xa; &lt;li>Bundles&lt;/li>&#xa;&lt;/ul>"/>
+                        </col3>
+                        <col4 jcr:primaryType="nt:unstructured">
+                            <text
+                                jcr:created="{Date}2025-02-23T05:54:18.505Z"
+                                jcr:createdBy="MSZULC@ADOBE.COM"
+                                jcr:lastModified="{Date}2025-02-23T06:54:45.655Z"
+                                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/franklin/components/text/v1/text"
+                                text="&lt;h6>Accessories&lt;/h6>&#xa;&lt;ul>&#xa; &lt;li>Replacement Parts&lt;/li>&#xa; &lt;li>Cups &amp;amp; Mugs&lt;/li>&#xa; &lt;li>Travel Mugs&lt;/li>&#xa; &lt;li>Kettles &amp;amp; Carafs&lt;/li>&#xa; &lt;li>Carafs&lt;/li>&#xa;&lt;/ul>"/>
+                        </col4>
+                        <col5 jcr:primaryType="nt:unstructured">
+                            <text
+                                jcr:created="{Date}2025-02-23T05:54:21.383Z"
+                                jcr:createdBy="MSZULC@ADOBE.COM"
+                                jcr:lastModified="{Date}2025-07-02T09:06:07.953Z"
+                                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/franklin/components/text/v1/text"
+                                text="&lt;h6>About Fréscopa&lt;/h6>&#xa;&lt;ul>&#xa; &lt;li>&lt;a href=&quot;/content/frescopa/en/about-us.html&quot;>About Us&lt;/a>&lt;/li>&#xa; &lt;li>Support&lt;/li>&#xa; &lt;li>&lt;a title=&quot;Find a Retailer&quot; href=&quot;/content/frescopa/en/locations.html&quot;>Find a Retailer&lt;/a>&lt;/li>&#xa; &lt;li>&lt;a title=&quot;Fréscopa Enterprise&quot; href=&quot;/content/frescopa/business.html&quot;>Fréscopa Enterprise&lt;/a>&lt;/li>&#xa; &lt;li>&lt;a title=&quot;Sustainability&quot; href=&quot;/content/frescopa/en/sustainability.html&quot;>Sustainability&lt;/a>&lt;/li>&#xa; &lt;li>&lt;a href=&quot;/content/frescopa/en/blog.html&quot;>Blog&lt;/a>&lt;/li>&#xa;&lt;/ul>"/>
+                        </col5>
+                    </row1>
+                </columns>
+            </section_519024273>
+            <section_2025825632
+                jcr:created="{Date}2025-02-23T06:01:51.871Z"
+                jcr:createdBy="MSZULC@ADOBE.COM"
+                jcr:lastModified="{Date}2025-02-23T06:24:22.929Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]"
+                name="footer-legal">
+                <text
+                    jcr:created="{Date}2025-02-23T06:02:00.743Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-02-23T06:02:08.352Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p>© Fréscopa, Inc. All rights reserved.&lt;/p>"/>
+                <text_638071114
+                    jcr:created="{Date}2025-02-23T06:02:16.974Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-02-23T06:02:24.840Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p>Terms of Use &amp;nbsp;| &amp;nbsp;Privacy Policy &amp;nbsp;| &amp;nbsp;Cookie Notice &amp;nbsp;| Diversity &amp;amp; Inclusion &amp;nbsp;| &amp;nbsp;Social Responsibility &amp;nbsp;| &amp;nbsp;Site Map&lt;/p>"/>
+            </section_2025825632>
+        </root>
+    </jcr:content>
+</jcr:root>

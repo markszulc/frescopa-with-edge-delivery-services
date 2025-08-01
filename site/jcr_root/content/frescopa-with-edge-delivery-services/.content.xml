@@ -15,5 +15,8 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="core/franklin/components/section/v1/section"/>
         </root>
+        <image
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/frescopa-with-edge-delivery-services/en/screenshots/frescopahomepage.png"/>
     </jcr:content>
 </jcr:root>

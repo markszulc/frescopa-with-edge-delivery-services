@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:prismusagerights="http://prismstandard.org/namespaces/prismusagerights/2.1/" xmlns:summit="http://ns.adobe.com/xap/1.0/summit/" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:identity="https://adobe.com/identity/1.0/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8e7990e0-4758-4fe1-9357-9e6d7f555160">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2025-04-09T20:43:46.471Z"
+        cq:lastReplicated_publish="{Date}2025-04-09T20:43:46.471Z"
+        cq:lastReplicated_scene7="{Date}2025-04-09T20:43:46.471Z"
+        cq:lastReplicatedBy="ehahn@adobe.com"
+        cq:lastReplicatedBy_publish="ehahn@adobe.com"
+        cq:lastReplicatedBy_scene7="ehahn@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        dam:assetState="processed"
+        dam:asyncJobId="2025/3/6/8/26/a9004eaa-a706-43e8-b5c6-27aa50c37732_235"
+        dam:imageServerAsset="{Boolean}true"
+        dam:processingAttempts="{Long}0"
+        dam:processingId="7b41f871-35c2-4feb-bbdb-c51f158cde25"
+        dam:processingRenditions="[cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.colors.json,cqdam.machine.metadata.tags.json,cq5dam.preview.mp4,cqdam.machine.metadata.features.json,cq5dam.preview.pdf,cqdam.text.txt,cqdam.metadata.xml,cq5dam.thumbnail.140.100.png,cq5dam.web.1280.1280.jpeg,cqdam.metadata.custom1.xml,cq5dam.thumbnail.48.48.png]"
+        dam:processingRequestedDate="{Date}2025-03-06T08:26:59.367Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        dam:s7damType="Image"
+        dam:scene7BatchId="QaWQapUBAADwpaRcXvsxGt6Mqvjkgc5X"
+        dam:scene7QueuedWith="2025/3/6/8/27/a9004eaa-a706-43e8-b5c6-27aa50c37732_237"
+        dam:scene7RequestID="7b41f871-35c2-4feb-bbdb-c51f158cde25"
+        jcr:lastModified="{Date}2025-03-06T08:28:25.102Z"
+        jcr:lastModifiedBy="apogupta@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        status="Finished">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for jpeg files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for jpeg files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for jpeg files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            cq:tags="[properties:orientation/square]"
+            dam:activationTarget="delivery"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2025-03-06T08:27:33.652Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}300"
+            dam:Physicalheightininches="{Decimal}16.0"
+            dam:Physicalwidthindpi="{Long}300"
+            dam:Physicalwidthininches="{Decimal}16.0"
+            dam:predictedColors="{Long}[13041,15022,16019,17009,14008]"
+            dam:Progressive="no"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|244865"
+            dam:scene7Domain="https://s7d1.scene7.com/"
+            dam:scene7File="SummitProd/Machine _96017153"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="SummitProd/frescopa/en/products/"
+            dam:scene7ID="a|2245453001"
+            dam:scene7LastModified="{Long}1744231419577"
+            dam:scene7Name="Machine _96017153"
+            dam:scene7PublishedBy="ehahn@adobe.com"
+            dam:scene7PublishTimeStamp="{Date}2025-04-09T20:43:46.956Z"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2025-03-06T08:28:15.138Z"
+            dam:sha1="1fcbb152ae9f95706d499d41ea6883828f9db383"
+            dam:size="{Long}2306584"
+            dam:status="approved"
+            dc:description="modern coffee machine isolated on white background"
+            dc:format="image/jpeg"
+            dc:rights="©Tiler84 - stock.adobe.com"
+            dc:subject="[coffee,espresso,machine,maker,isolated,white,nobody,appliance,background,gray,caffeine,cappuccino,cutout,kitchen,metal,modern,single,steel,one,single]"
+            dc:subject_xmpArrayType="rdf:Bag"
+            dc:title="modern coffee machine isolated on white background"
+            exif:ColorSpace="{Long}65535"
+            exif:ComponentsConfiguration="{Long}[1,2,3,0]"
+            exif:ComponentsConfiguration_xmpArrayType="rdf:Seq"
+            exif:ExifVersion="0232"
+            exif:FlashpixVersion="0100"
+            exif:PixelXDimension="{Long}4800"
+            exif:PixelYDimension="{Long}4800"
+            identity:perceptualHash="ea6695c9a599852d"
+            identity:sha256="ef8df9ae290dfe10ef4d9d916897c1f16053fa7cffc9ef2645f4ea23485fb9f3"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:Country="Ukraine"
+            photoshop:Credit="Tiler84 - stock.adobe.com"
+            photoshop:Headline="modern coffee machine isolated on white background"
+            photoshop:Source="96017153"
+            prismusagerights:creditLine="[Tiler84 - stock.adobe.com]"
+            prismusagerights:creditLine_xmpArrayType="rdf:Bag"
+            summit:contentType="Product Silo Image"
+            summit:location="\0"
+            summit:product="Coffee Machine"
+            summit:sku="CSM5125"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}4800"
+            tiff:ImageWidth="{Long}4800"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="300/1"
+            tiff:YCbCrPositioning="{Long}1"
+            tiff:YResolution="300/1"
+            xmp:CreateDate="{Date}2015-11-13T04:37:16.000Z"
+            xmp:CreatorTool="Adobe Photoshop CS6 (Windows)"
+            xmp:MetadataDate="{Date}2015-11-16T14:43:46.000+02:00"
+            xmpMM:DocumentID="xmp.did:4475A73F5F8CE511B372A9D9837DE9B2"
+            xmpMM:InstanceID="xmp.iid:4675A73F5F8CE511B372A9D9837DE9B2"
+            xmpMM:OriginalDocumentID="xmp.did:4475A73F5F8CE511B372A9D9837DE9B2"
+            xmp:ModifyDate="{Date}2015-11-16T14:43:46.000Z"
+            brand="Frescopa">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:4475A73F5F8CE511B372A9D9837DE9B2"
+                stRef:instanceID="xmp.iid:4575A73F5F8CE511B372A9D9837DE9B2"
+                stRef:originalDocumentID="xmp.did:4475A73F5F8CE511B372A9D9837DE9B2"
+                xmpNodeType="xmpStruct"/>
+            <imageFeatures
+                jcr:lastModified="{Date}2025-03-06T08:27:34.579Z"
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:lastModified="{Date}2025-03-06T08:27:34.581Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.4143"
+                    name="WHITE"
+                    rank="{Long}1"
+                    rgb="{Long}[250,250,250]"/>
+                <color2
+                    jcr:lastModified="{Date}2025-03-06T08:27:34.582Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.2181"
+                    name="GRAY"
+                    rank="{Long}2"
+                    rgb="{Long}[158,158,158]"/>
+                <color3
+                    jcr:lastModified="{Date}2025-03-06T08:27:34.582Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.1947"
+                    name="DARK_GRAY"
+                    rank="{Long}3"
+                    rgb="{Long}[64,64,64]"/>
+                <color4
+                    jcr:lastModified="{Date}2025-03-06T08:27:34.583Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.0924"
+                    name="SILVER"
+                    rank="{Long}4"
+                    rgb="{Long}[200,200,200]"/>
+                <color5
+                    jcr:lastModified="{Date}2025-03-06T08:27:34.584Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.0805"
+                    name="OFF_WHITE"
+                    rank="{Long}5"
+                    rgb="{Long}[221,221,222]"/>
+            </dam:colorDistribution>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <coffee_maker
+                    jcr:lastModified="{Date}2025-03-06T08:27:40.417Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.796"
+                    isCustom="{Boolean}false"
+                    name="coffee maker"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

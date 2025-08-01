@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="07f8f957-4a14-4ca9-be89-871599f1afcc">
+    <jcr:content
+        cq:conf="\0"
+        jcr:lastModified="{Date}2025-03-06T08:26:27.125Z"
+        jcr:lastModifiedBy="apogupta@adobe.com"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Line Art"
+        s7-sync-mode="include">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

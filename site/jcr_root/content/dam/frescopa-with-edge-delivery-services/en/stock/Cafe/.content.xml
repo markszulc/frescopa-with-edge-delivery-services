@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="77656582-1d8f-4596-8d9c-eea5275e1636">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Cafe">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,9 @@
+query articleByPath($path: String!, $variation: String!) {
+  articleByPath(_path: $path, variation: $variation) {
+    item {
+      title
+      content {
+        plaintext
+      }
+    }
+  }}

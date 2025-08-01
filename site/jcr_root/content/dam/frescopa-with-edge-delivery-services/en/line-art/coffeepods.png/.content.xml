@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:identity="https://adobe.com/identity/1.0/" xmlns:machine="https://adobe.com/machine/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:summit="http://ns.adobe.com/xap/1.0/summit/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="46371349-d620-4985-b8f4-b8cc56098ba6">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2025-03-06T08:31:32.916Z"
+        cq:lastReplicated_publish="{Date}2025-03-06T08:31:32.916Z"
+        cq:lastReplicated_scene7="{Date}2025-03-06T08:31:32.916Z"
+        cq:lastReplicatedBy="apogupta@adobe.com"
+        cq:lastReplicatedBy_publish="apogupta@adobe.com"
+        cq:lastReplicatedBy_scene7="apogupta@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        dam:assetState="processed"
+        dam:asyncJobId="2025/3/6/8/27/a9004eaa-a706-43e8-b5c6-27aa50c37732_239"
+        dam:imageServerAsset="{Boolean}true"
+        dam:processingAttempts="{Long}0"
+        dam:processingId="104fd01e-9a00-444e-91c3-8e46c30e8e28"
+        dam:processingRenditions="[cqdam.text.txt,cqdam.machine.metadata.features.json,cqdam.metadata.custom1.xml,cq5dam.web.1280.1280.jpeg,cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.48.48.png,cqdam.metadata.xml,cq5dam.thumbnail.319.319.png,cq5dam.preview.mp4,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.140.100.png,cq5dam.zoom.2048.2048.jpeg]"
+        dam:processingRequestedDate="{Date}2025-03-06T08:28:58.912Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        dam:s7damType="Image"
+        dam:scene7BatchId="dHiSapUBAABFSY4r0yFby-B_qs292h12"
+        dam:scene7QueuedWith="2025/3/6/8/29/a9004eaa-a706-43e8-b5c6-27aa50c37732_241"
+        dam:scene7RequestID="104fd01e-9a00-444e-91c3-8e46c30e8e28"
+        jcr:lastModified="{Date}2025-03-06T08:30:24.756Z"
+        jcr:lastModifiedBy="apogupta@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        status="Finished">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            cq:tags="[properties:orientation/square]"
+            dam:activationTarget="delivery"
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2025-03-06T08:29:18.715Z"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:predictedColors="{Long}[37100]"
+            dam:Progressive="no"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|244865"
+            dam:scene7Domain="https://s7d1.scene7.com"
+            dam:scene7File="SummitProd/coffeepods"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="SummitProd/frescopa/en/line-art/"
+            dam:scene7ID="a|2245454551"
+            dam:scene7LastModified="{Date}2025-03-06T08:30:14.749Z"
+            dam:scene7Name="coffeepods"
+            dam:scene7PublishedBy="apogupta@adobe.com"
+            dam:scene7PublishTimeStamp="{Date}2025-03-06T08:32:38.878Z"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2025-03-06T08:30:14.756Z"
+            dam:sha1="d5c926788c1e76f929e1ae1f0f39a60e63b8f9f6"
+            dam:size="{Long}30490"
+            dam:status="approved"
+            dc:format="image/png"
+            identity:perceptualHash="d169700a2cfb6c8f"
+            identity:sha256="ba78a49b5ddfd724513a872148854c7961cfaa60a94dd2e8db96b3cf4b23656b"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            machine:description="A vibrant illustration of a pyramid of six neatly stacked cups, radiating energy with dynamic lines emanating from the top. The cups are depicted in a bold, warm red color, creating a sense of excitement and celebration. The minimalist design and clean lines make it perfect for modern branding and marketing materials."
+            machine:keywords="[illustration,red cups,pyramid,stacked,dynamic lines,celebration,minimalist,modern,branding,marketing,coffee pods,warm orange,energy lines,premium,artisanal,modern design,simplicity]"
+            machine:keywords_xmpArrayType="rdf:Seq"
+            machine:processed="true"
+            machine:shortdescription="Illustration of six red cups stacked in a pyramid with dynamic lines radiating from the top."
+            photoshop:ColorMode="{Long}3"
+            summit:contentType="Line Art"
+            tiff:BitsPerSample="{Long}[8,8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}414"
+            tiff:ImageWidth="{Long}446"
+            brand="Frescopa">
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.840Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}1.0"
+                    name="ORANGE"
+                    rank="{Long}1"
+                    rgb="{Long}[217,105,76]"/>
+            </dam:colorDistribution>
+            <imageFeatures
+                jcr:lastModified="{Date}2025-03-06T08:29:18.856Z"
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <event_photography
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.863Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.84"
+                    isCustom="{Boolean}false"
+                    name="event photography"/>
+                <stemware
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.863Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.812"
+                    isCustom="{Boolean}false"
+                    name="stemware"/>
+                <drinkware
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.864Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.797"
+                    isCustom="{Boolean}false"
+                    name="drinkware"/>
+                <symmetry
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.864Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.792"
+                    isCustom="{Boolean}false"
+                    name="symmetry"/>
+                <goblet
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.864Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.791"
+                    isCustom="{Boolean}false"
+                    name="goblet"/>
+                <champagne_stemware
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.865Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.775"
+                    isCustom="{Boolean}false"
+                    name="champagne stemware"/>
+                <bar_counter
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.865Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.775"
+                    isCustom="{Boolean}false"
+                    name="bar counter"/>
+                <choir
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.866Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.763"
+                    isCustom="{Boolean}false"
+                    name="choir"/>
+                <stock
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.866Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.758"
+                    isCustom="{Boolean}false"
+                    name="stock"/>
+                <night_club
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.867Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.757"
+                    isCustom="{Boolean}false"
+                    name="night club"/>
+                <party
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.867Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.756"
+                    isCustom="{Boolean}false"
+                    name="party"/>
+                <trophy
+                    jcr:lastModified="{Date}2025-03-06T08:29:18.868Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.754"
+                    isCustom="{Boolean}false"
+                    name="trophy"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

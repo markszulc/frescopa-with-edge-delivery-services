@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="8c006f5e-da32-4b9c-9918-5e1fefde32e0">
+    <jcr:content
+        cq:lastModified="{Date}2025-02-24T11:12:05.551Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:template="/libs/core/franklin/templates/metadata"
+        cq:translationJob="[/content/projects/frescopa/frescopa/jcr:content/dashboard/gadgets/translationjob0]"
+        cq:translationStatus="DRAFT"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Metadata"
+        jcr:uuid="b6b1e477-3f45-441d-b6c0-49d7d6c968c3"
+        sling:resourceType="core/franklin/components/spreadsheet/v1/spreadsheet"
+        columns="[URL,title,description,keywords,og:type,og:title,og:description,og:url,og:image,og:image:secure_url,last-modified,json-ld]"
+        hideInNav="{Boolean}true"/>
+</jcr:root>

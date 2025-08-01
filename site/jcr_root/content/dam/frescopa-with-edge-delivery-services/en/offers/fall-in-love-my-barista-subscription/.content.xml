@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="669759ff-0c7d-4bb5-a45e-72c39c14b64a">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2025-05-21T04:57:29.248Z"
+        cq:lastReplicated_preview="{Date}2025-04-18T19:53:43.411Z"
+        cq:lastReplicated_publish="{Date}2025-05-21T04:57:29.248Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_preview="gknob@adobe.com"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_preview="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="fall-in-love-my-barista-subscription"
+        cq:parentPath="/content/dam/frescopa/en/offers"
+        jcr:description="\0"
+        jcr:lastModified="{Date}2025-05-16T04:49:58.802Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Fall in love MyBarista Subscription"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/frescopa/settings/dam/cfm/models/offer"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                callToAction="Learn More"
+                callToAction_x0040_LastModified="{Date}2025-04-16T06:00:17.487Z"
+                callToAction_x0040_LastModifiedBy="MSZULC@ADOBE.COM"
+                ctaUrl="/subscription"
+                ctaUrl_x0040_LastModified="{Date}2025-03-26T02:50:09.480Z"
+                ctaUrl_x0040_LastModifiedBy="amitkumar@adobe.com"
+                detail="&lt;p>With a MyBarista subscription, you get hand-selected coffees delivered right to your door each month.&amp;nbsp;&lt;/p>"
+                detail_x0040_ContentType="text/html"
+                detail_x0040_LastModified="{Date}2025-04-17T21:52:39.419Z"
+                detail_x0040_LastModifiedBy="ilagno@adobe.com"
+                headline="Fall in love with coffee. Every single month"
+                headline_x0040_LastModified="{Date}2025-05-16T04:49:58.802Z"
+                headline_x0040_LastModifiedBy="MSZULC@ADOBE.COM"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="abb0b083-7cba-483c-a92a-72c5b2aa9e96"
+                _x0040_string_x0040_model="/conf/frescopa/settings/dam/cfm/models/offer"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_callToAction="Learn More"
+                string_x0040_ctaUrl="/subscription"
+                string_x0040_detail="&lt;p>With a MyBarista subscription, you get hand-selected coffees delivered right to your door each month.&amp;nbsp;&lt;/p>"
+                string_x0040_headline="Fall in love with coffee. Every single month"/>
+        </indexedData>
+        <metadata
+            cq:tags="[ajo-enabled:AD64216A6810A3830A495C89@AdobeOrg/prod]"
+            dam:scene7PublishPending="{Boolean}true"
+            dam:status="approved"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured"/>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

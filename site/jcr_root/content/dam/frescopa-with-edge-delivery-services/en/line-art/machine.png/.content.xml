@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:identity="https://adobe.com/identity/1.0/" xmlns:machine="https://adobe.com/machine/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:summit="http://ns.adobe.com/xap/1.0/summit/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c86d9a70-bd7a-40b2-ab8a-0b2af70b99ce">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2025-03-06T08:31:32.916Z"
+        cq:lastReplicated_publish="{Date}2025-03-06T08:31:32.916Z"
+        cq:lastReplicated_scene7="{Date}2025-03-06T08:31:32.916Z"
+        cq:lastReplicatedBy="apogupta@adobe.com"
+        cq:lastReplicatedBy_publish="apogupta@adobe.com"
+        cq:lastReplicatedBy_scene7="apogupta@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        dam:assetState="processed"
+        dam:asyncJobId="2025/3/6/8/27/a9004eaa-a706-43e8-b5c6-27aa50c37732_239"
+        dam:imageServerAsset="{Boolean}true"
+        dam:processingAttempts="{Long}0"
+        dam:processingId="fe07602d-320a-4c2f-b20f-083784849ac3"
+        dam:processingRenditions="[cqdam.machine.metadata.features.json,cq5dam.zoom.2048.2048.jpeg,cq5dam.preview.mp4,cqdam.metadata.custom1.xml,cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cq5dam.preview.pdf,cq5dam.web.1280.1280.jpeg,cqdam.machine.metadata.colors.json,cqdam.text.txt,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.tags.json,cq5dam.thumbnail.319.319.png]"
+        dam:processingRequestedDate="{Date}2025-03-06T08:28:58.869Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        dam:s7damType="Image"
+        dam:scene7BatchId="dHiSapUBAABFSY4r0yFby-B_qs292h12"
+        dam:scene7QueuedWith="2025/3/6/8/29/a9004eaa-a706-43e8-b5c6-27aa50c37732_241"
+        dam:scene7RequestID="fe07602d-320a-4c2f-b20f-083784849ac3"
+        jcr:lastModified="{Date}2025-03-06T08:30:24.742Z"
+        jcr:lastModifiedBy="apogupta@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        status="Finished">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            cq:tags="[properties:orientation/square]"
+            dam:activationTarget="delivery"
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2025-03-06T08:29:18.996Z"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:predictedColors="{Long}[37100]"
+            dam:Progressive="no"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|244865"
+            dam:scene7Domain="https://s7d1.scene7.com"
+            dam:scene7File="SummitProd/machine"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="SummitProd/frescopa/en/line-art/"
+            dam:scene7ID="a|2245454273"
+            dam:scene7LastModified="{Date}2025-03-06T08:30:14.748Z"
+            dam:scene7Name="machine"
+            dam:scene7PublishedBy="apogupta@adobe.com"
+            dam:scene7PublishTimeStamp="{Date}2025-03-06T08:32:49.544Z"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2025-03-06T08:30:14.754Z"
+            dam:sha1="950cabcf05638d390448c02074494d954613e742"
+            dam:size="{Long}16611"
+            dam:status="approved"
+            dc:format="image/png"
+            identity:perceptualHash="f750d0aad5c6614d"
+            identity:sha256="c86deba2ef2a4ee20bbf1c2d07fff93766319919249a8421169a0b0cfef08cb1"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            machine:description="This image features a sleek, modern espresso machine with a minimalist design. The machine is outlined in a vibrant orange color, highlighting its sophisticated controls and dual cup setup. The clean lines and contemporary style make it a perfect fit for a trendy kitchen or a chic coffee shop."
+            machine:keywords="[espresso machine,coffee maker,dual cup,modern design,minimalist,vibrant orange,kitchen appliance,chic,sophisticated controls,contemporary style,line art,modern,dual functionality,coffee,monochromatic,illustration,contemporary]"
+            machine:keywords_xmpArrayType="rdf:Seq"
+            machine:processed="true"
+            machine:shortdescription="Modern espresso machine with dual cup setup and vibrant orange outline."
+            photoshop:ColorMode="{Long}3"
+            summit:contentType="Line Art"
+            tiff:BitsPerSample="{Long}[8,8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}423"
+            tiff:ImageWidth="{Long}408"
+            brand="Frescopa">
+            <imageFeatures
+                jcr:lastModified="{Date}2025-03-06T08:29:15.846Z"
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:lastModified="{Date}2025-03-06T08:29:19.381Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}1.0"
+                    name="ORANGE"
+                    rank="{Long}1"
+                    rgb="{Long}[217,106,77]"/>
+            </dam:colorDistribution>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <coffee_maker
+                    jcr:lastModified="{Date}2025-03-06T08:29:19.385Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.924"
+                    isCustom="{Boolean}false"
+                    name="coffee maker"/>
+                <electric_mixer
+                    jcr:lastModified="{Date}2025-03-06T08:29:19.385Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.792"
+                    isCustom="{Boolean}false"
+                    name="electric mixer"/>
+                <frother
+                    jcr:lastModified="{Date}2025-03-06T08:29:19.386Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.774"
+                    isCustom="{Boolean}false"
+                    name="frother"/>
+                <coffee_shop
+                    jcr:lastModified="{Date}2025-03-06T08:29:19.386Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.766"
+                    isCustom="{Boolean}false"
+                    name="coffee shop"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

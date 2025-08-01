@@ -4,7 +4,7 @@
     jcr:primaryType="sling:Folder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="Franklin Examples"
+        jcr:title="Frescopa"
         metadataSchema="System Default"
         processingProfile="System Default"
         sourcing="false">

@@ -1,0 +1,20 @@
+query quizByPath($path: String!) {
+  quizByPath(_path: $path) {
+    item {
+      questions {
+        question,
+        options {
+          description,
+          image {
+            ... on ImageRef {
+              _publishUrl
+            }
+          },
+          minOption,
+          maxOption
+        }
+      },
+      answer
+    }
+  }
+}

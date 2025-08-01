@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:xdm="http://ns.adobe.com/aem/metadata-unspecified/xdm" xmlns:product="http://ns.adobe.com/xap/1.0/product/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:summit="http://ns.adobe.com/xap/1.0/summit/" xmlns:frescopa="http://ns.adobe.com/aem/metadata-unspecified/frescopa" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:identity="https://adobe.com/identity/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f28fbe74-4b40-4bd9-a84c-5a1a5572c057">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2025-03-10T08:55:47.986Z"
+        cq:lastReplicated_publish="{Date}2025-03-10T08:55:47.986Z"
+        cq:lastReplicated_scene7="{Date}2025-03-05T05:56:17.210Z"
+        cq:lastReplicatedBy="jalagari@adobe.com"
+        cq:lastReplicatedBy_publish="jalagari@adobe.com"
+        cq:lastReplicatedBy_scene7="apogupta@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        dam:assetState="processed"
+        dam:asyncJobId="2025/3/6/8/26/a9004eaa-a706-43e8-b5c6-27aa50c37732_235"
+        dam:imageServerAsset="{Boolean}true"
+        dam:processingAttempts="{Long}0"
+        dam:processingId="89447568-9545-42b8-8651-3edf30c9f0b5"
+        dam:processingRenditions="[cq5dam.thumbnail.140.100.png,cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cq5dam.web.1280.1280.jpeg,cqdam.text.txt,cq5dam.preview.mp4,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.319.319.png,cq5dam.preview.pdf,cq5dam.zoom.2048.2048.jpeg,cqdam.machine.metadata.tags.json,cqdam.machine.metadata.features.json,cqdam.metadata.custom1.xml]"
+        dam:processingRequestedDate="{Date}2025-03-06T08:26:59.151Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        dam:s7damType="Image"
+        dam:scene7BatchId="2aOQapUBAACLPJSmYp2Gx7gDMWvKsMle"
+        dam:scene7QueuedWith="2025/3/6/8/27/a9004eaa-a706-43e8-b5c6-27aa50c37732_238"
+        dam:scene7RequestID="89447568-9545-42b8-8651-3edf30c9f0b5"
+        jcr:lastModified="{Date}2025-03-06T08:28:25.117Z"
+        jcr:lastModifiedBy="apogupta@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        status="Finished">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            cq:tags="[properties:orientation/square]"
+            dam:activationTarget="delivery"
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 9.1-c002 79.a6a63968a, 2024/03/06-11:52:05        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stEvt=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceEvent#&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:photoshop=&quot;http://ns.adobe.com/photoshop/1.0/&quot; xmp:CreateDate=&quot;2021-11-17T21:08:51+11:00&quot; xmp:MetadataDate=&quot;2024-09-01T20:08:24+10:00&quot; xmp:ModifyDate=&quot;2024-09-01T20:08:24+10:00&quot; xmpMM:InstanceID=&quot;xmp.iid:3094c97b-6fc8-463b-989b-7188bfe616e9&quot; xmpMM:DocumentID=&quot;adobe:docid:photoshop:ddf7d999-a98a-ef41-b34b-638bf716ec7a&quot; xmpMM:OriginalDocumentID=&quot;xmp.did:0b82c3a0-cdbf-444d-8523-572b57d9635e&quot; dc:format=&quot;image/png&quot; photoshop:ColorMode=&quot;3&quot;> &lt;xmpMM:History> &lt;rdf:Seq> &lt;rdf:li stEvt:action=&quot;created&quot; stEvt:instanceID=&quot;xmp.iid:0b82c3a0-cdbf-444d-8523-572b57d9635e&quot; stEvt:when=&quot;2021-11-17T21:08:51+11:00&quot;/> &lt;rdf:li stEvt:action=&quot;saved&quot; stEvt:instanceID=&quot;xmp.iid:07e9a276-dd48-4d48-9e58-d0c2d35581b4&quot; stEvt:when=&quot;2021-11-17T21:08:51+11:00&quot; stEvt:changed=&quot;/&quot;/> &lt;rdf:li stEvt:action=&quot;saved&quot; stEvt:instanceID=&quot;xmp.iid:3094c97b-6fc8-463b-989b-7188bfe616e9&quot; stEvt:when=&quot;2024-09-01T20:08:24+10:00&quot; stEvt:softwareAgent=&quot;Adobe Photoshop 25.11 (Macintosh)&quot; stEvt:changed=&quot;/&quot;/> &lt;/rdf:Seq> &lt;/xmpMM:History> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?> "
+            dam:extracted="{Date}2025-03-06T08:27:39.717Z"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}27.77430534362793"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}27.77430534362793"
+            dam:predictedColors="{Long}[37048,1020,27013,25011,29008]"
+            dam:Progressive="no"
+            dam:scene7APIServer="https://s7sps1apissl.scene7.com"
+            dam:scene7CloudConfigPath="/conf/global/settings/cloudconfigs/dmscene7"
+            dam:scene7CompanyID="c|244865"
+            dam:scene7Domain="https://s7d1.scene7.com/"
+            dam:scene7File="SummitProd/HouseBlend-Slight Right"
+            dam:scene7FileStatus="PublishComplete"
+            dam:scene7Folder="SummitProd/frescopa/en/products/"
+            dam:scene7ID="a|2225356362"
+            dam:scene7LastModified="{Date}2025-03-06T08:28:15.383Z"
+            dam:scene7Name="HouseBlend-Slight Right"
+            dam:scene7PublishedBy="jalagari@adobe.com"
+            dam:scene7PublishTimeStamp="{Date}2025-03-10T08:55:50.601Z"
+            dam:scene7Type="Image"
+            dam:scene7UploadTimeStamp="{Date}2025-03-06T08:28:15.414Z"
+            dam:sha1="1c1cf684bd845c0093e70aa2d22925c7c14a16a2"
+            dam:size="{Long}2217777"
+            dam:status="approved"
+            dc:description="A vibrant package of Fréscopa Medium Roast House Blend Whole Bean coffee. The bag features rich brown tones with a circular window showcasing the coffee beans inside. The brand name and blend type are prominently displayed on the front."
+            dc:format="image/png"
+            dc:subject="[Fréscopa,Medium Roast,House Blend,Whole Bean,Coffee,12 oz,340 g,Coffee Packaging,Brown,Coffee Beans]"
+            dc:subject_xmpArrayType="rdf:Bag"
+            dc:title="Fréscopa Medium Roast House Blend Whole Bean Coffee"
+            frescopa:coffeeBlend="House Blend"
+            frescopa:contentType="Product Silo Image"
+            frescopa:producttype="Whole Bean"
+            frescopa:roastLevel="Medium Roast"
+            identity:perceptualHash="b56ccc338c1cc3cb"
+            identity:sha256="1b79cae0e202dc1f45627de7e41475c0d47e16177c812a9475c63d5526766b83"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            product:blend="House Blend"
+            product:coffeeType="Whole Bean"
+            product:roastLevel="Medium Roast"
+            product:sku="s121440"
+            summit:coffeeBlend="House Blend"
+            summit:contentType="Product Silo Image"
+            summit:product="Whole Bean"
+            summit:roastLevel="Medium Roast"
+            summit:sku="s121440"
+            tiff:BitsPerSample="{Long}[8,8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}2000"
+            tiff:ImageWidth="{Long}2000"
+            xdm:productSKU="HBMR211"
+            xmp:CreateDate="{Date}2021-11-17T21:08:51.000+11:00"
+            xmp:MetadataDate="{Date}2024-09-01T20:08:24.000+10:00"
+            xmpMM:DocumentID="adobe:docid:photoshop:ddf7d999-a98a-ef41-b34b-638bf716ec7a"
+            xmpMM:InstanceID="xmp.iid:3094c97b-6fc8-463b-989b-7188bfe616e9"
+            xmpMM:OriginalDocumentID="xmp.did:0b82c3a0-cdbf-444d-8523-572b57d9635e"
+            xmp:ModifyDate="{Date}2024-09-01T20:08:24.000+10:00"
+            brand="Frescopa">
+            <imageFeatures
+                jcr:lastModified="{Date}2025-03-06T08:27:34.588Z"
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:lastModified="{Date}2025-03-06T08:27:40.418Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.4783"
+                    name="ORANGE"
+                    rank="{Long}1"
+                    rgb="{Long}[224,186,159]"/>
+                <color2
+                    jcr:lastModified="{Date}2025-03-06T08:27:40.420Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.1989"
+                    name="RED"
+                    rank="{Long}2"
+                    rgb="{Long}[176,71,62]"/>
+                <color3
+                    jcr:lastModified="{Date}2025-03-06T08:27:40.421Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.1335"
+                    name="PINK"
+                    rank="{Long}3"
+                    rgb="{Long}[234,194,182]"/>
+                <color4
+                    jcr:lastModified="{Date}2025-03-06T08:27:40.422Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.1127"
+                    name="DARK_BROWN"
+                    rank="{Long}4"
+                    rgb="{Long}[90,53,48]"/>
+                <color5
+                    jcr:lastModified="{Date}2025-03-06T08:27:40.423Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.0765"
+                    name="MAROON"
+                    rank="{Long}5"
+                    rgb="{Long}[92,27,18]"/>
+            </dam:colorDistribution>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <product_photography
+                    jcr:lastModified="{Date}2025-03-06T08:27:40.432Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.86"
+                    isCustom="{Boolean}false"
+                    name="product photography"/>
+                <packaging
+                    jcr:lastModified="{Date}2025-03-06T08:27:40.433Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.763"
+                    isCustom="{Boolean}false"
+                    name="packaging"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

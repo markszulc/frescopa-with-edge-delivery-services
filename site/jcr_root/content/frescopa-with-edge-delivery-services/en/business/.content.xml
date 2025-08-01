@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="7870658b-a125-4016-9293-b637d4c0ce91">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-06-27T05:46:22.962Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        cq:translationJob="[/content/projects/frescopa/frescopa/jcr:content/dashboard/gadgets/translationjob0]"
+        cq:translationStatus="DRAFT"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Business"
+        jcr:uuid="57849ed8-af9d-4d3e-9733-42e7113bc89f"
+        sling:resourceType="core/franklin/components/page/v1/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <block
+                    jcr:created="{Date}2025-02-20T12:41:35.725Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-02-20T12:43:00.729Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    classes="[light,left]"
+                    fileReference="/content/dam/frescopa/en/campaigns/stairhead.png"
+                    model="teaser"
+                    modelFields="[fileReference,fileReferenceAlt,classes,eyebrow,title,titleType,longDescr,shortDescr,cta1Type,cta1Text,cta1,cta2Type,cta2Text,cta2]"
+                    name="Teaser"
+                    title="Frescopa for Business"
+                    titleType="h3"/>
+            </section>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="8dba1ef7-cbbd-42bc-b665-33ff79031051">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-06-27T05:46:22.977Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        cq:translationJob="[/content/projects/frescopa/frescopa/jcr:content/dashboard/gadgets/translationjob0]"
+        cq:translationStatus="DRAFT"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Accessories"
+        jcr:uuid="080b22ae-ed46-4faf-b892-72d7c4a3ab3e"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        unsetTitle="false">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section_172543532
+                jcr:created="{Date}2025-02-28T10:13:18.975Z"
+                jcr:createdBy="MSZULC@ADOBE.COM"
+                jcr:lastModified="{Date}2025-02-28T10:13:18.975Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]">
+                <block
+                    jcr:created="{Date}2025-02-28T10:13:35.094Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-02-28T10:14:32.291Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    classes="[left,frescopa-background-black,half-height]"
+                    eyebrow="The perfect combination of"
+                    model="teaser"
+                    modelFields="[fileReference,fileReferenceAlt,classes,eyebrow,title,titleType,longDescr,shortDescr,cta1Type,cta1Text,cta1,cta2Type,cta2Text,cta2]"
+                    name="Teaser"
+                    title="Frescopa Accessories"
+                    titleType="h3"/>
+            </section_172543532>
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <block
+                    jcr:created="{Date}2025-03-07T10:43:35.639Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-03-07T10:44:29.057Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    category="{Long}28"
+                    key-value="{Boolean}true"
+                    model="product-list-page-custom"
+                    modelFields="[category,urlPath,type]"
+                    name="Product List Page Custom"
+                    urlPath="accessories"/>
+            </section>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

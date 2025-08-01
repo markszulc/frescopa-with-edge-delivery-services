@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:xdm="http://ns.adobe.com/aem/metadata-unspecified/xdm" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:machine="https://adobe.com/machine/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="58599e2b-286b-4552-92e4-cff849ef4ddb">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastReplicated="{Date}2025-03-08T05:04:26.786Z"
+        cq:lastReplicated_publish="{Date}2025-03-08T05:04:26.786Z"
+        cq:lastReplicatedBy="hchung@adobe.com"
+        cq:lastReplicatedBy_publish="hchung@adobe.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        dam:assetState="processed"
+        dam:processingAttempts="{Long}1"
+        dam:processingId="7a662e61-3234-447c-b27a-f2ab851ae730"
+        dam:processingRenditions="[cq5dam.thumbnail.319.319.png,cqdam.machine.metadata.tags.json,cqdam.metadata.custom1.xml,cq5dam.preview.mp4,cq5dam.thumbnail.48.48.png,cq5dam.preview.pdf,cqdam.machine.metadata.colors.json,cqdam.machine.metadata.features.json,cqdam.text.txt,cqdam.metadata.xml,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.140.100.png]"
+        dam:processingRequestedDate="{Date}2025-03-06T02:49:11.956Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2025-03-06T02:52:15.710Z"
+        jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.mp4
+                jcr:primaryType="nt:unstructured"
+                message="Format mp4 is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for png files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            cq:tags="[properties:orientation/portrait]"
+            dam:activationTarget="delivery"
+            dam:Bitsperpixel="{Long}32"
+            dam:extracted="{Date}2025-03-06T02:50:45.606Z"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:predictedColors="{Long}[13060,1017,38016,2007]"
+            dam:Progressive="no"
+            dam:sha1="2edb2754e02b3c8bf31c3b3a6c0611f8b5e89012"
+            dam:size="{Long}4008688"
+            dam:status="approved"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            machine:description="The image showcases a vibrant webpage for a subscription service, featuring a warm, inviting color palette of reds and oranges. The top section highlights a call-to-action with an illustration of a door opening to a world of flavors. Below, three sections depict a woman enjoying a drink, a subscription box on a doorstep, and a man relaxing on a couch. The layout is clean and modern, emphasizing the ease and excitement of discovering new flavors."
+            machine:keywords="[subscription service,flavor profile,call-to-action,illustration,warm colors,product imagery,customer experience,modern layout,webpage design,brand elements]"
+            machine:keywords_xmpArrayType="rdf:Seq"
+            machine:processed="true"
+            machine:shortdescription="Webpage for a flavor subscription service with warm colors, featuring a call-to-action, product imagery, and customer experiences."
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}4750"
+            tiff:ImageWidth="{Long}2880"
+            xdm:channelName="[Web]"
+            xdm:region="[EMEA,AMER]"
+            brand="Frescopa">
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <person
+                    jcr:lastModified="{Date}2025-03-06T02:51:00.654Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}1.0"
+                    isCustom="{Boolean}false"
+                    name="person"/>
+                <business_photography
+                    jcr:lastModified="{Date}2025-03-06T02:51:00.658Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.919"
+                    isCustom="{Boolean}false"
+                    name="business photography"/>
+                <website
+                    jcr:lastModified="{Date}2025-03-06T02:51:00.659Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.877"
+                    isCustom="{Boolean}false"
+                    name="website"/>
+                <flyer
+                    jcr:lastModified="{Date}2025-03-06T02:51:00.659Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.825"
+                    isCustom="{Boolean}false"
+                    name="flyer"/>
+                <brochure
+                    jcr:lastModified="{Date}2025-03-06T02:51:00.660Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.757"
+                    isCustom="{Boolean}false"
+                    name="brochure"/>
+            </predictedTags>
+            <imageFeatures
+                jcr:lastModified="{Date}2025-03-06T02:51:39.706Z"
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:lastModified="{Date}2025-03-06T02:51:45.630Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.6002"
+                    name="WHITE"
+                    rank="{Long}1"
+                    rgb="{Long}[251,251,251]"/>
+                <color2
+                    jcr:lastModified="{Date}2025-03-06T02:51:45.631Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.1679"
+                    name="RED"
+                    rank="{Long}2"
+                    rgb="{Long}[167,62,57]"/>
+                <color3
+                    jcr:lastModified="{Date}2025-03-06T02:51:45.632Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.1609"
+                    name="BEIGE"
+                    rank="{Long}3"
+                    rgb="{Long}[244,231,219]"/>
+                <color4
+                    jcr:lastModified="{Date}2025-03-06T02:51:45.633Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.071"
+                    name="DARK_RED"
+                    rank="{Long}4"
+                    rgb="{Long}[157,49,44]"/>
+            </dam:colorDistribution>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

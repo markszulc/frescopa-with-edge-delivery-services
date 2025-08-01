@@ -1,0 +1,22 @@
+query offerByPath($path: String!, $variation: String!) {
+  offerByPath(_path: $path, variation: $variation) {
+    item {
+      headline
+      detail {
+        plaintext
+      }
+      callToAction
+      ctaUrl
+      _variations
+      _metadata {
+        stringMetadata {
+          name
+          value
+        }
+      }
+    }
+    _references {
+      __typename
+    }
+  }
+}

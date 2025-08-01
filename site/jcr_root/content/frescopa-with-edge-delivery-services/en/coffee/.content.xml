@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:mixinTypes="[mix:lockable,mix:referenceable]"
+    jcr:primaryType="cq:Page"
+    jcr:uuid="9d5aa92e-a4d3-496a-b6cd-18ee88cb626f">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-06-30T19:22:37.303Z"
+        cq:lastModifiedBy="gknob@adobe.com"
+        cq:lastReplicated="{Date}2025-06-27T05:08:04.164Z"
+        cq:lastReplicated_publish="{Date}2025-06-27T05:08:04.164Z"
+        cq:lastReplicated_scene7="{Date}2025-06-27T05:08:04.164Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_scene7="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:lastReplicationAction_scene7="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        cq:translationJob="[/content/projects/frescopa/frescopa/jcr:content/dashboard/gadgets/translationjob0]"
+        cq:translationStatus="DRAFT"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Coffee"
+        jcr:uuid="4f2c54b7-3810-44c9-b8c6-4d86a413836f"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        initialContentRefTarget="false"
+        pageTitle="Frescopa Coffee"
+        unsetTitle="false">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section_796089369
+                jcr:created="{Date}2025-02-23T10:04:02.780Z"
+                jcr:createdBy="MSZULC@ADOBE.COM"
+                jcr:lastModified="{Date}2025-02-23T10:04:02.780Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                model="section"
+                modelFields="[name,style]">
+                <block
+                    jcr:created="{Date}2025-02-23T10:04:20.949Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-03-18T21:30:33.742Z"
+                    jcr:lastModifiedBy="ajani@adobe.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    classes="[left,frescopa-background-red,half-height]"
+                    eyebrow="There's nothing quite like"
+                    fileReference="/content/dam/frescopa/en/campaigns/3cups.png"
+                    fileReferenceAlt="Three cups"
+                    model="teaser"
+                    modelFields="[fileReference,fileReferenceAlt,classes,eyebrow,title,titleType,longDescr,shortDescr,cta1Type,cta1Text,cta1,cta2Type,cta2Text,cta2]"
+                    name="Teaser"
+                    title="Frescopa Coffee"
+                    titleType="h3"/>
+            </section_796089369>
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <title
+                    jcr:created="{Date}2025-02-20T11:07:59.696Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-06-30T19:22:37.300Z"
+                    jcr:lastModifiedBy="gknob@adobe.com"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/title/v1/title"
+                    model="title"
+                    title="Bagged Coffee"
+                    titleType="h3"/>
+                <block_484815682
+                    jcr:created="{Date}2025-02-24T10:41:42.590Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-02-24T10:41:42.590Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    category="{Long}27"
+                    key-value="{Boolean}true"
+                    model="product-list-page-custom"
+                    modelFields="[category,urlPath,type]"
+                    name="Product List Page Custom"
+                    urlPath="bagged-coffee"/>
+                <block_1083224788
+                    jcr:created="{Date}2025-03-06T10:15:18.933Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-03-06T10:15:56.517Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    articlepath="/content/dam/frescopa/en/articles/the-magic-of-espresso"
+                    model="article"
+                    modelFields="[articlepath,variation]"
+                    name="Article"/>
+                <title_1114127013
+                    jcr:created="{Date}2025-02-21T11:43:11.235Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-02-21T11:43:44.933Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/title/v1/title"
+                    model="title"
+                    title="Coffee Pods"
+                    titleType="h3"/>
+                <_x0031__1740732449708
+                    jcr:created="{Date}2025-02-24T10:41:42.590Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-02-28T11:59:04.927Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    category="{Long}23"
+                    key-value="{Boolean}true"
+                    model="product-list-page-custom"
+                    modelFields="[category,urlPath,type]"
+                    name="Product List Page Custom"
+                    urlPath="coffee-pods"/>
+                <block_1050317104
+                    jcr:created="{Date}2025-03-06T10:07:43.503Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-03-06T10:07:43.503Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    model="storelocator"
+                    modelFields="[fileReference,headline]"
+                    name="Store Locator"/>
+            </section>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-07-02T01:21:24.748Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2025-07-02T01:21:29.787Z"
+        cq:lastReplicated_publish="{Date}2025-07-02T01:21:29.787Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About Us"
+        jcr:uuid="894bf97e-c2b1-479e-9a0d-d8319359f5a7"
+        sling:resourceType="core/franklin/components/page/v1/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section">
+                <text
+                    jcr:created="{Date}2025-07-02T01:20:29.804Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-07-02T01:21:24.745Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;h2>About Us&lt;/h2>&#xa;&lt;p>Welcome to &lt;strong>Frescopa&lt;/strong> — where innovation meets indulgence.&lt;/p>&#xa;&lt;p>At Frescopa, we believe coffee is more than just a drink — it’s a moment of pause, a spark of inspiration, and a daily ritual worth savoring. Whether you’re pulling a shot at home or sipping slow on the go, we’re here to elevate every experience with premium quality, effortless style, and a touch of everyday magic.&lt;/p>&#xa;&lt;h3>Our Story&lt;/h3>&#xa;&lt;p>Born from a passion for exceptional coffee and modern living, Frescopa blends the craftsmanship of classic espresso with the convenience and flair of today’s lifestyle. Inspired by global coffee culture, engineered for simplicity, and crafted for taste — we’re redefining what your next cup can be.&lt;/p>&#xa;&lt;h3>What We Do&lt;/h3>&#xa;&lt;ul>&#xa; &lt;li>&lt;p>&lt;strong>Artisan Coffee&lt;/strong>: Responsibly sourced beans, roasted to perfection for bold, balanced flavor in every sip.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>&lt;strong>Smart Brewing Gear&lt;/strong>: Sleek machines, intuitive design — the perfect blend of form and function.&lt;/p>&lt;/li>&#xa; &lt;li>&lt;p>&lt;strong>Everyday Enjoyment&lt;/strong>: From morning rituals to weekend catchups, we bring barista-quality moments to your home or office.&lt;/p>&lt;/li>&#xa;&lt;/ul>&#xa;&lt;h3>Why Frescopa?&lt;/h3>&#xa;&lt;p>We’re not just about caffeine — we’re about connection.&lt;/p>&#xa;&lt;p>Connection to quality. Connection to culture.&lt;/p>&#xa;&lt;p>And most importantly, connection to &lt;em>your&lt;/em> moment of calm, energy, or creativity — however you take it.&lt;/p>"/>
+            </section>
+        </root>
+    </jcr:content>
+</jcr:root>

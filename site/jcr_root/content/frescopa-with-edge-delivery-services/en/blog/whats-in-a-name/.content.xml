@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isDelivered="{Boolean}false"
+        cq:lastModified="{Date}2025-07-02T09:41:40.815Z"
+        cq:lastModifiedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicated="{Date}2025-07-02T09:41:49.540Z"
+        cq:lastReplicated_publish="{Date}2025-07-02T09:41:49.540Z"
+        cq:lastReplicatedBy="MSZULC@ADOBE.COM"
+        cq:lastReplicatedBy_publish="MSZULC@ADOBE.COM"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/libs/core/franklin/templates/page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:ReplicationStatus2,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="“What’s in a Name? The Meaning (and Mischief) Behind ‘Frescopa'"
+        jcr:uuid="40c5a22d-7f4f-4553-b15e-eec5bdfa0ecd"
+        sling:resourceType="core/franklin/components/page/v1/page"
+        initialContentRefTarget="false"
+        modelFields="[title,image,robots]"
+        unsetTitle="false">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/franklin/components/root/v1/root">
+            <section
+                jcr:lastModified="{Date}2025-07-02T09:23:05.836Z"
+                jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="core/franklin/components/section/v1/section"
+                modelFields="[name,style]"
+                title="“What’s in a Name? The Meaning (and Mischief) Behind ‘Frescopa’">
+                <block
+                    jcr:created="{Date}2025-07-02T09:19:20.286Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-07-02T09:22:57.078Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/block/v1/block"
+                    image="/content/dam/frescopa/en/stock/Landscape/Frescopa coffee landscape 109.png"
+                    model="hero"
+                    modelFields="[image,imageAlt,text]"
+                    name="Hero"
+                    text="&lt;h1>“What’s in a Name? The Meaning (and Mischief) Behind ‘Frescopa’&lt;/h1>"/>
+                <text
+                    jcr:created="{Date}2025-07-02T09:19:31.440Z"
+                    jcr:createdBy="MSZULC@ADOBE.COM"
+                    jcr:lastModified="{Date}2025-07-02T09:21:14.093Z"
+                    jcr:lastModifiedBy="MSZULC@ADOBE.COM"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/franklin/components/text/v1/text"
+                    text="&lt;p>A playful deep dive into the fictional etymology, hidden meanings, or alternate taglines of the Frescopa brand. Fun for humanizing the brand voice.&lt;/p>"/>
+            </section>
+        </root>
+        <image jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
