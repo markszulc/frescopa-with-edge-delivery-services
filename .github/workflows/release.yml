@@ -41,6 +41,12 @@ jobs:
       - name: Set up PAT for pushing tags
         run: git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
 
+      - name: Show git remote and branch info
+        run: |
+          git remote -v
+          git branch -a
+          git status
+
       - name: Create and push git tag
         run: |
           git config user.name "github-actions[bot]"
